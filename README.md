@@ -1,13 +1,10 @@
-Based on your task list and the MCU/KUMO style, here's a stylized and clean draft for your **README**. It introduces your custom benchmark, aligns with the structure of KUMO, and adds sections for categories and difficulty modes (simple and hard):
-
----
 
 # ⛏️ MCU: A Benchmark for Evaluating Minecraft Agent
 
-**MCU** is an extended benchmark based on the [MCU framework](https://arxiv.org/abs/2504.02810), featuring **80 handcrafted atomic tasks** across 10 categories. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
+**MCU** is an extended benchmark based on the [MCU framework], featuring **80 handcrafted atomic tasks** across 10 categories. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
 
-> 🔍 Simple mode: Tasks begin with all necessary items pre-supplied and a clear environment.  
-> 🌪️ Hard mode: Agents face **disruptive factors** such as night-time settings, poor visibility, extra distractors (e.g. mobs), or misleading initial setups.
+> 🔍 Simple mode: Tasks begin with sufficient necessary resources pre-supplied and a clear environment.  
+> 🌪️ Hard mode: Agents face **limited resources** and **disruptive factors** such as poor visibility (e.g. bad weather, night-time), extra distractors (e.g., swarms of mobs, scattered items). 
 
 ---
 
@@ -16,7 +13,7 @@ Based on your task list and the MCU/KUMO style, here's a stylized and clean draf
 - 🧩 **Diverse Domains**: 80 atomic tasks across **combat**, **crafting**, **mining**, **creative building**, and more.
 - 🔄 **Dual Difficulty**: Each task runs in both **simple** and **hard** versions to evaluate **intra-task generalization**.
 - 🎯 **Grounded Evaluation**: Tasks are executable and verified via a standardized environment config.
-- 📦 **Agent-Agnostic**: Compatible with [MineStudio](https://github.com/open-mine/mine-studio) agents or any API-based Minecraft wrapper.
+- 📦 **Agent-Agnostic**: Compatible with [MineStudio](https://github.com/CraftJarvis/MineStudio) agents or any API-based Minecraft wrapper.
 
 ---
 

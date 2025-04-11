@@ -1,22 +1,23 @@
 **Task Progress: the key factors/steps for completing the task** 
  - whether the agent gathers necessary materials for the present
- - whether the agent crafts or selects an item as a present
- - whether the agent delivers the present to the neighbor (i.e., placing it in a chest or giving it directly)
+ - whether the agent crafts a present (e.g., cake, crafted item)
+ - whether the agent delivers the present to the neighbor's location
 
 **Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
- - e.g. gathering unrelated materials, crafting unrelated items, wandering aimlessly
+ - e.g. collecting unrelated materials, crafting unrelated items, wandering aimlessly
 
 **Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
- - e.g. whether the agent recognizes incorrect materials or items and replaces them
- - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+ - e.g. whether the agent recognizes incorrect crafting recipes and corrects them
+ - whether the agent identifies and replaces inappropriate materials for the present
 
 **Creative Attempts: any creative attempts exhibited by the agent during doing task**
- - e.g. adding decorative elements to the present, selecting unique or rare items as a present, writing a personalized message on a sign
+ - e.g. creating a personalized card or message along with the present
+ - e.g. designing unique wrapping or packaging for the present
 
 **Task Completion Efficiency**
- - whether the time taken by the agent to complete the task falls within a reasonable range.
- - whether effective collection and crafting strategies were employed to minimize unnecessary repetitions or errors.
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective strategies were employed to minimize unnecessary repetitions or errors
 
-**Material Selection and Usage: whether the agent correctly utilize the given materials**
- - whether the agent selects appropriate and meaningful items for the present
- - whether the agent uses the materials efficiently without excessive waste
+**Material Selection and Usage: whether the agent correctly utilize the given materials** 
+ - whether the agent selects appropriate materials for crafting the present
+ - whether the agent effectively uses the materials without wastage

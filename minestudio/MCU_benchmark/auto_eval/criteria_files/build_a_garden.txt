@@ -1,0 +1,22 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent prepares the ground for planting (e.g., clearing an area, leveling the surface)
+ - whether the agent plants a variety of flora (e.g., flowers, trees, bushes)
+ - whether the agent includes any additional garden structures or elements (e.g., pathways, fences, water features)
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g., removing planted items without reason, excessive digging or placing blocks unrelated to garden construction
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g., recognizing when plants are not placed properly or when the garden layout does not meet the task requirements
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g., unique design of garden layout, use of different colors and plant types to enhance aesthetics
+ - incorporation of innovative garden features such as seating areas, decorative lighting
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective construction strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent selects appropriate materials for constructing garden elements and uses them effectively

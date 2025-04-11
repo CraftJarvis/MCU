@@ -1,0 +1,20 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent establishes a clear foundation for the wall
+ - whether the agent builds the wall to a consistent height
+ - whether the agent maintains straight and aligned construction
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. placing blocks outside the intended wall area, removing and replacing blocks without purpose
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether agents recognize misaligned or misplaced blocks and adjust them accordingly
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product 
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. unique wall designs, incorporating decorative elements like patterns or textures
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective construction strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**

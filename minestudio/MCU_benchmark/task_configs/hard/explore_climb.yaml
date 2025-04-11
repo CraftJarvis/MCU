@@ -1,10 +1,29 @@
 custom_init_commands:
-- /give @s minecraft:ladder 32
-- /give @s minecraft:stone 64
 - /give @s minecraft:bread 16
-- /summon minecraft:goat ~5 ~ ~
-- /execute as @p at @s run fill ~-5 ~-1 ~-5 ~5 ~20 ~5 dirt
-defaults:
-- base
-- _self_
-text: Explore and climb the mountains to discover new biomes and resources.
+- /give @s minecraft:iron_pickaxe
+- /give @s minecraft:ladder 20
+- /give @s minecraft:scaffolding 30
+- /give @s minecraft:torch 10
+- /give @s minecraft:compass 1
+- /give @s minecraft:clock 1
+- /give @s minecraft:iron_shovel
+- /time set dusk
+- /give @s minecraft:stone 64
+- /give @s minecraft:oak_planks 16
+- /give @s minecraft:iron_axe
+- /give @s minecraft:water_bucket 1
+- /give @s minecraft:map
+- /give @s minecraft:iron_boots
+- /give @s minecraft:iron_helmet
+- /give @s minecraft:iron_chestplate
+- /give @s minecraft:iron_leggings
+- /give @s minecraft:bow
+- /give @s minecraft:arrow 32
+- /give @s minecraft:ender_pearl 5
+- /give @s minecraft:spyglass 1
+- /give @s minecraft:potion{Potion:"minecraft:swiftness"} 3
+- /give @s minecraft:potion{Potion:"minecraft:leaping"} 3
+text: explore and climb a mountainous terrain
+thinking: '- In order to explore and climb, you need at least some food for sustenance,
+  and tools like a pickaxe to navigate the terrain. You may also want to enhance your
+  experience with items such as ladders or scaffolding for climbing.'

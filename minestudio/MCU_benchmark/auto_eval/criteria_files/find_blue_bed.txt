@@ -1,0 +1,22 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent searches for structures that typically contain beds, such as villages or player-built houses
+ - whether the agent identifies and interacts with a bed
+ - whether the agent specifically identifies a blue bed
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. wandering aimlessly, interacting with unrelated items like doors or chests unnecessarily.
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes if a bed is not blue and continues the search for the correct color
+ - whether the corrected actions lead the agent closer to finding a blue bed efficiently
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using unique strategies to locate villages or structures, such as using high vantage points or maps
+ - e.g. employing navigation aids like compasses or landmarks to streamline the search process
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective search strategies were employed to minimize unnecessary explorations or interactions
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent uses available resources or materials efficiently to aid in the search, such as crafting tools for faster movement or navigation.

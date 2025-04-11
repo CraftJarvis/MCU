@@ -1,0 +1,15 @@
+custom_init_commands:
+- /replaceitem entity @s armor.head minecraft:diamond_helmet
+- /replaceitem entity @s armor.chest minecraft:diamond_chestplate
+- /replaceitem entity @s armor.legs minecraft:diamond_leggings
+- /replaceitem entity @s armor.feet minecraft:diamond_boots
+- /replaceitem entity @s weapon.mainhand minecraft:diamond_sword
+- /summon minecraft:witch ~3 ~ ~3
+- /give @p minecraft:shield
+- /give @p minecraft:golden_apple 5
+- /time set day
+text: combat and kill a witch
+thinking: '- In order to combat a witch, we need weapons, armor, and a witch nearby.
+  It''s beneficial to have a Diamond Armor Set for protection and a Diamond Sword
+  for combat. Witches use potions for attack, so having a shield and some healing
+  items like golden apples is helpful.'

@@ -1,24 +1,25 @@
 **Task Progress: the key factors/steps for completing the task** 
- - whether the agent identifies and targets the phantom
- - whether the agent successfully aims at the phantom
- - whether the agent shoots the phantom and hits it
+ - whether the agent identifies the presence of a phantom
+ - whether the agent equips a bow or crossbow
+ - whether the agent successfully shoots the phantom
+ - whether the agent eliminates the phantom
 
 **Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
- - e.g. shooting at unrelated entities or objects
- - e.g. wasting arrows or other projectiles on unnecessary targets
+ - e.g. aimlessly shooting arrows without targeting the phantom
+ - e.g. switching to unrelated items during the attack
 
 **Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
- - e.g. whether the agent recognizes missed shots and adjusts its aim accordingly
- - e.g. whether the corrected results demonstrate improvement and increase the accuracy of subsequent shots
+ - e.g. whether the agent adjusts its aim after missed shots
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
 
 **Creative Attempts: any creative attempts exhibited by the agent during doing task**
- - e.g. using different types of bows or projectiles, such as enchanted bows
- - e.g. employing strategic positioning or environmental advantages to improve accuracy
+ - e.g. using terrain or structures for strategic positioning
+ - e.g. employing different tactics to lure the phantom into an advantageous position
 
 **Task Completion Efficiency**
- - whether the time taken by the agent to complete the task falls within a reasonable range
- - whether effective shooting strategies were employed to minimize missed shots and improve hit rate
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective combat strategies were employed to minimize unnecessary actions or misses.
 
 **Material Selection and Usage: whether the agent correctly utilize the given materials**
- - whether the agent selected the appropriate weapon or projectile for shooting the phantom
- - whether the agent efficiently managed its inventory, ensuring an adequate supply of arrows or other projectiles
+ - whether the agent correctly uses arrows and maintains sufficient supply
+ - whether the agent effectively manages durability of the bow or crossbow

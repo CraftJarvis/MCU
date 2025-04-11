@@ -1,14 +1,31 @@
 custom_init_commands:
-- /give @s minecraft:compass 1
-- /give @s minecraft:bread 32
-- /summon minecraft:horse ~ ~ ~ {Tame:1b}
-- /replaceitem entity @s armor.head minecraft:iron_helmet
-- /replaceitem entity @s armor.chest minecraft:iron_chestplate
-- /replaceitem entity @s armor.legs minecraft:iron_leggings
-- /replaceitem entity @s armor.feet minecraft:iron_boots
-- /give @s minecraft:map 1
-defaults:
-- base
-- _self_
-text: Venture into the world to discover new biomes and structures while gathering
-  resources for survival.
+- /give @s minecraft:oak_boat
+- /give @s minecraft:filled_map
+- /give @s minecraft:cooked_beef 32
+- /weather thunder
+- /give @p minecraft:torch 10
+- /give @p minecraft:emerald 10
+- /give @p minecraft:iron_ingot 8
+- /give @p minecraft:oak_log 16
+- /give @p minecraft:stone_pickaxe
+- /give @p minecraft:leather_helmet
+- /give @p minecraft:leather_chestplate
+- /give @p minecraft:leather_leggings
+- /give @p minecraft:leather_boots
+- /give @p minecraft:iron_sword
+- /give @p minecraft:compass
+- /give @p minecraft:clock
+- /give @p minecraft:bucket
+- /give @p minecraft:water_bucket
+- /give @p minecraft:flint_and_steel
+- /give @p minecraft:diamond 5
+- /give @p minecraft:arrow 20
+- /give @p minecraft:bread 10
+- /give @p minecraft:golden_apple 2
+- /give @p minecraft:ender_pearl 4
+- /give @p minecraft:firework_rocket 5
+- /give @p minecraft:lapis_lazuli 16
+- /give @p minecraft:redstone 32
+text: explore using a boat and map
+thinking: '- In order to explore, we need a boat and a map to navigate, along with
+  some food for sustenance.'

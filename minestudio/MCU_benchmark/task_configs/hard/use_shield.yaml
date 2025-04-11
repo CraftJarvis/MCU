@@ -1,10 +1,31 @@
 custom_init_commands:
 - /give @s minecraft:shield
-- /give @s minecraft:stone_sword 5
-- /summon minecraft:creeper ~3 ~ ~
+- /give @s minecraft:stone_sword
+- /give @s minecraft:planks 10
+- /give @s minecraft:stick 5
+- /summon minecraft:zombie ~3 ~ ~
+- /summon minecraft:zombie ~-3 ~ ~
 - /summon minecraft:skeleton ~5 ~ ~
-- /give @s minecraft:wooden_sword 10
-defaults:
-- base
-- _self_
-text: Equip and use a shield for defense against attacks.
+- /weather thunder
+- /time set midnight
+- /give @p minecraft:torch 20
+- /give @p minecraft:iron_ore 5
+- /give @p minecraft:coal 10
+- /give @p minecraft:iron_ingot 3
+- /give @p minecraft:diamond 2
+- /give @p minecraft:bread 8
+- /give @p minecraft:apple 5
+- /give @p minecraft:carrot 6
+- /give @p minecraft:potato 7
+- /give @p minecraft:chicken 4
+- /give @p minecraft:beef 5
+- /give @p minecraft:golden_apple 2
+- /give @p minecraft:emerald 3
+- /give @p minecraft:leather 6
+- /give @p minecraft:flint 5
+- /give @p minecraft:quartz 4
+- /give @p minecraft:lapis_lazuli 10
+- /give @p minecraft:redstone 8
+text: defend yourself using a shield
+thinking: '- In order to use a shield effectively, we need a shield, a weapon, and
+  a hostile mob nearby to defend against.'

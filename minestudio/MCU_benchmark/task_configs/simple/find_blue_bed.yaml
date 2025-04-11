@@ -1,0 +1,7 @@
+custom_init_commands:
+- /setblock ~1 ~ ~-3 minecraft:bedrock
+- /give @p minecraft:torch 10
+- /give @p minecraft:flower_pot 3
+text: find a blue bed
+thinking: '- In order to find a blue bed, we need to make sure there is a blue bed
+  nearby.'

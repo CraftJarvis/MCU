@@ -1,0 +1,26 @@
+custom_init_commands:
+- /give @s minecraft:slime_ball 2
+- /give @s minecraft:string 6
+- /setblock ~2 ~ ~ minecraft:crafting_table
+- /give @p minecraft:torch 10
+- /give @p minecraft:stone 64
+- /give @p minecraft:oak_log 16
+- /give @p minecraft:gold_ingot 5
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 2
+- /give @p minecraft:nether_brick 8
+- /give @p minecraft:brick 10
+- /give @p minecraft:lapis_lazuli 5
+- /give @p minecraft:redstone 20
+- /give @p minecraft:book 3
+- /give @p minecraft:bread 8
+- /give @p minecraft:sugar 6
+- /give @p minecraft:carrot 5
+- /give @p minecraft:potato 7
+- /give @p minecraft:cooked_beef 4
+- /give @p minecraft:ice 6
+- /give @p minecraft:lead
+- /summon minecraft:pig ~3 ~ ~
+- /summon minecraft:chicken ~4 ~ ~
+text: Use lead to get animals

@@ -1,0 +1,23 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent successfully navigates the environment to search for lava
+ - whether the agent identifies visual or environmental cues that indicate the presence of lava, such as light or specific terrain
+ - whether the agent confirms the presence of lava by visually inspecting or interacting with it
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. wandering aimlessly without a clear strategy or path 
+ - engaging in unrelated actions like mining or crafting without purpose
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent corrects its path if it enters a dead end or wrong area
+ - whether the agent adjusts its search strategy if no lava is found initially
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using unique navigation methods such as building temporary structures to gain a vantage point
+ - implementing innovative search patterns or using tools to enhance lava detection
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to find the lava falls within a reasonable range
+ - whether effective exploration strategies were employed to minimize unnecessary movements or backtracking
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent uses appropriate tools or materials to aid in the search for lava, such as torches for lighting or blocks for building paths

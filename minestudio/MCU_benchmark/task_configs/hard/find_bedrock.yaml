@@ -1,0 +1,28 @@
+custom_init_commands:
+- /execute as @p at @s run fill ~-2 ~-1 ~-2 ~2 ~0 ~2 minecraft:bedrock
+- /give @p minecraft:stone_pickaxe
+- /weather thunder
+- /give @p minecraft:torch 10
+- /give @p minecraft:apple 5
+- /give @p minecraft:bread 3
+- /give @p minecraft:iron_ingot 5
+- /give @p minecraft:gold_ingot 3
+- /give @p minecraft:diamond 2
+- /give @p minecraft:emerald 4
+- /give @p minecraft:coal 8
+- /give @p minecraft:oak_log 10
+- /give @p minecraft:cobblestone 32
+- /give @p minecraft:dirt 16
+- /give @p minecraft:sand 12
+- /give @p minecraft:gravel 10
+- /give @p minecraft:iron_ore 5
+- /give @p minecraft:gold_ore 3
+- /give @p minecraft:lapis_lazuli 6
+- /give @p minecraft:redstone 8
+- /give @p minecraft:obsidian 4
+- /give @p minecraft:bucket 1
+- /give @p minecraft:water_bucket 1
+text: find bedrock
+thinking: '- In order to find bedrock, we need to dig down to the bottom layer of
+  the world, where bedrock naturally generates. However, since this can be time-consuming,
+  we can use the /fill command to reveal bedrock nearby.'

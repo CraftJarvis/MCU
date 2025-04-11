@@ -3,12 +3,17 @@ custom_init_commands:
 - /replaceitem entity @s armor.chest minecraft:iron_chestplate
 - /replaceitem entity @s armor.legs minecraft:iron_leggings
 - /replaceitem entity @s armor.feet minecraft:iron_boots
+- /replaceitem entity @s weapon.mainhand minecraft:iron_sword
 - /give @p minecraft:bow 1
+- /give @p minecraft:arrow 32
 - /time set night
+- /effect give @a night_vision 99999 250 true
 - /summon minecraft:skeleton ~3 ~ ~
-- /give @p minecraft:arrow 64
-- /give @p minecraft:flint 15
-defaults:
-- base
-- _self_
-text: Combat skeletons using the right gear and strategy.
+- /summon minecraft:skeleton ~ ~ ~-3
+- /summon minecraft:skeleton ~2 ~ ~2
+- /weather thunder
+text: combat and kill skeletons
+thinking: '- In order to combat skeletons, we need weapons, armor, and skeletons nearby.
+  A full Iron Armor Set provides good protection, while an Iron Sword and Bow with
+  arrows are effective for combat. Skeletons typically spawn at night, so night vision
+  is helpful, and poor visibility can be created with weather changes.'

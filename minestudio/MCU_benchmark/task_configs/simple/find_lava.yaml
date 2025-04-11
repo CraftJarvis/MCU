@@ -1,0 +1,5 @@
+custom_init_commands:
+- /execute as @p at @s run fill ~2 ~-1 ~2 ~4 ~-1 ~4 minecraft:lava
+- /give @p minecraft:bucket
+text: find a lava source
+thinking: '- In order to find lava, we need to ensure there is a lava source nearby.'

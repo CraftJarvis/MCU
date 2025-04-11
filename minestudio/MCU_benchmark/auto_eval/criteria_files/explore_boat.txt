@@ -1,24 +1,24 @@
 **Task Progress: the key factors/steps for completing the task** 
- - whether the agent places the boat in water
- - whether the agent boards the boat
- - whether the agent travels a significant distance on the water using the boat
+ - whether the agent locates and approaches a boat
+ - whether the agent enters the boat
+ - whether the agent navigates the boat on water
+ - whether the agent explores specific areas or landmarks while in the boat
 
 **Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
- - e.g. placing the boat on land, repeatedly trying to board the boat without success
- - e.g. engaging in unrelated activities like breaking blocks or attacking entities
+ - e.g. wandering aimlessly without a clear exploration path
+ - e.g. unnecessarily entering and exiting the boat multiple times
 
 **Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
- - e.g. whether the agent recognizes if the boat is not placed in water and corrects it
- - e.g. whether the agent adjusts its direction if it gets stuck or travels in the wrong direction
+ - e.g. whether the agent recognizes when the boat is stuck or not moving and takes corrective actions
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
 
 **Creative Attempts: any creative attempts exhibited by the agent during doing task**
- - e.g. exploring different water bodies, such as rivers, lakes, or oceans
- - e.g. using the boat to navigate through narrow or challenging waterways
+ - e.g. exploring unique or challenging waterways or taking scenic routes
+ - e.g. using the boat for unexpected purposes like reaching hard-to-access areas
 
 **Task Completion Efficiency**
- - whether the time taken by the agent to complete the task falls within a reasonable range
- - whether effective navigation strategies were employed to minimize unnecessary repetitions or errors
+ - whether the time taken by the agent to complete the exploration falls within a reasonable range.
+ - whether effective navigation strategies were employed to minimize unnecessary repetitions or errors.
 
 **Material Selection and Usage: whether the agent correctly utilize the given materials**
- - whether the agent uses the boat correctly and does not waste materials
- - whether the agent efficiently manages resources, such as not breaking the boat unnecessarily
+ - whether the agent effectively uses the boat and any other materials necessary for navigation and exploration tasks.

@@ -1,0 +1,8 @@
+custom_init_commands:
+- /summon minecraft:spider ~3 ~ ~3
+- /replaceitem entity @s weapon.mainhand minecraft:oak_boat
+- /give @s minecraft:oak_boat 5
+- /give @s minecraft:stone 64
+text: trap a spider using a boat
+thinking: '- In order to trap a spider with a boat, we need to have a boat and a spider
+  nearby.'

@@ -1,9 +1,26 @@
 custom_init_commands:
-- /give @s minecraft:gold_ingot 10
-- /give @s minecraft:redstone 5
-- /give @s minecraft:crafting_table
-- /give @s minecraft:diamond 32
-defaults:
-- base
-- _self_
-text: Open your inventory and craft a clock using gold ingots and a redstone dust.
+- /setblock ~2 ~ ~ minecraft:crafting_table
+- /give @s minecraft:gold_ingot 6
+- /give @s minecraft:redstone 2
+- /give @s minecraft:oak_planks 10
+- /give @s minecraft:cobblestone 14
+- /give @s minecraft:iron_ingot 8
+- /give @s minecraft:diamond 4
+- /give @s minecraft:emerald 3
+- /give @s minecraft:glass 5
+- /give @s minecraft:quartz 6
+- /give @s minecraft:book 4
+- /give @s minecraft:leather 2
+- /give @s minecraft:feather 3
+- /give @s minecraft:string 5
+- /give @s minecraft:arrow 10
+- /give @s minecraft:bread 7
+- /give @s minecraft:carrot 12
+- /give @s minecraft:potato 9
+- /give @s minecraft:coal 20
+- /give @s minecraft:lapis_lazuli 6
+- /give @s minecraft:water_bucket 1
+- /weather thunder
+text: craft a clock
+thinking: '- In order to craft a clock, you need at least 4 gold ingots and 1 redstone
+  dust, and a crafting table.'

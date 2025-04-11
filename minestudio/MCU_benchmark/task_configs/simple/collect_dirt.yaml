@@ -1,7 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:wooden_shovel 1
-- /give @s minecraft:dirt 64
-defaults:
-- base
-- _self_
-text: Collect dirt blocks from the ground.

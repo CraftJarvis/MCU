@@ -1,0 +1,9 @@
+custom_init_commands:
+- /give @s minecraft:stone_bricks 128
+- /give @s minecraft:stone_brick_slab 64
+- /execute as @p at @s run fill ~-5 ~ ~-5 ~5 ~3 ~5 minecraft:stone_bricks
+- /give @s minecraft:torch 20
+- /give @s minecraft:poppy 10
+text: build a wall using stone bricks
+thinking: '- In order to build a wall, we need building materials such as stone, wood,
+  or bricks, and a suitable space to construct it.'

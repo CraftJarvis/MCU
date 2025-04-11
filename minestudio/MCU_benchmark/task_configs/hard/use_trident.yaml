@@ -1,8 +1,31 @@
 custom_init_commands:
-- /give @p minecraft:trident 1
-- /effect give @a minecraft:strength 99999 1 true
-- /summon minecraft:skeleton ~3 ~ ~
-defaults:
-- base
-- _self_
-text: Use a trident to attack and experience its unique abilities.
+- /summon minecraft:drowned ~5 ~ ~
+- /summon minecraft:drowned ~6 ~ ~
+- /summon minecraft:drowned ~7 ~ ~
+- /give @s minecraft:iron_sword
+- /replaceitem entity @s armor.head minecraft:chainmail_helmet
+- /replaceitem entity @s armor.chest minecraft:chainmail_chestplate
+- /replaceitem entity @s armor.legs minecraft:chainmail_leggings
+- /replaceitem entity @s armor.feet minecraft:chainmail_boots
+- /give @p minecraft:prismarine_shard 15
+- /give @p minecraft:diamond 10
+- /give @p minecraft:crafting_table 1
+- /setblock ~2 ~ ~ minecraft:crafting_table
+- /give @p minecraft:stone_axe 1
+- /give @p minecraft:oak_fence 5
+- /give @p minecraft:oak_log 3
+- /give @p minecraft:leather 4
+- /give @p minecraft:lapis_lazuli 6
+- /give @p minecraft:iron_ingot 7
+- /give @p minecraft:gold_ingot 5
+- /give @p minecraft:redstone 10
+- /give @p minecraft:glowstone_dust 8
+- /give @p minecraft:string 12
+- /give @p minecraft:stick 20
+- /give @p minecraft:feather 8
+- /give @p minecraft:arrow 16
+- /give @p minecraft:bow 1
+- /give @p minecraft:trident
+- /summon minecraft:pig ~3 ~ ~
+- /summon minecraft:chicken ~4 ~ ~
+text: use trident to hunt animal

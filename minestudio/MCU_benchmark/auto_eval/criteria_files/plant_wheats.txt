@@ -1,23 +1,23 @@
-**Task Progress: the key factors/steps for completing the task**  
- - whether the agent uses an iron hoe to till the land  
- - whether the agent plants wheat seeds after tilling  
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent has prepared the ground for planting (e.g., tilled the soil)
+ - whether the agent has planted the wheat seeds in the prepared soil
+ - whether the agent has ensured the wheat seeds have water nearby for growth
+ - whether the agent has harvested the grown wheat
 
-**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**  
- - e.g. using the hoe on blocks that are not soil  
- - e.g. wandering off to other tasks instead of planting seeds  
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g., digging unnecessary holes, planting seeds in unsuitable locations, or repeatedly breaking and replanting
 
-**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**  
- - whether the agent recognizes if the tilling was not successful or incorrect  
- - whether the agent corrects any mistakes in the planting process, such as re-tilling or reseeding  
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g., whether the agent recognizes incorrectly tilled or watered land and corrects it
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product
 
-**Creative Attempts: any creative attempts exhibited by the agent during doing task**  
- - e.g. arranging the wheat in a specific pattern or design  
- - e.g. using multiple tools or methods to enhance the planting process  
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g., arranging the wheat field in unique patterns or utilizing fences for protection against mobs
+ - implementing irrigation systems or using bone meal to accelerate growth
 
-**Task Completion Efficiency**  
- - whether the time taken by the agent to complete the task falls within a reasonable range  
- - whether effective strategies were employed to minimize unnecessary repetitions or errors during tilling and planting  
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective agricultural strategies were employed to minimize unnecessary repetitions or errors
 
-**Material Selection and Usage: whether the agent correctly utilize the given materials**  
- - whether the agent uses the iron hoe appropriately and does not switch to an incorrect tool  
- - whether the agent selects the correct type of seeds to plant after tilling the land
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - e.g., using the correct tools for tilling and ensuring the right amount of seeds and water is used

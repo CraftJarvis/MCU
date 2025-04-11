@@ -1,0 +1,21 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent obtains an item frame
+ - whether the agent selects an appropriate spot for placing the item frame
+ - whether the agent successfully places the item frame on a surface (e.g., wall, block)
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. wandering without purpose, placing the item frame in unsuitable locations repeatedly
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes incorrect placement of the item frame and corrects its position
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. placing the item frame in an aesthetically pleasing or functional location, like near a door or in a gallery style
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective strategies were employed to minimize unnecessary movements or errors.
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent uses the item frame appropriately and efficiently without unnecessary wastage

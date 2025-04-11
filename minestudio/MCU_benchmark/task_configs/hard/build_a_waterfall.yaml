@@ -1,10 +1,29 @@
 custom_init_commands:
-- /give @s minecraft:water_bucket 5
-- /give @s minecraft:stone 64
-- /give @s minecraft:dirt 64
-- /execute as @p at @s run fill ~-2 ~-1 ~-2 ~2 ~4 ~2 water
-- /give @s minecraft:wooden_shovel 1
-defaults:
-- base
-- _self_
-text: Create a stunning waterfall using water buckets and natural terrain.
+- /give @s minecraft:water_bucket 4
+- /give @s minecraft:stone 32
+- /give @s minecraft:shovel{Enchantments:[{id:"minecraft:efficiency",lvl:1}]} 1
+- /weather thunder
+- /give @p minecraft:pumpkin 2
+- /give @p minecraft:oak_log 16
+- /give @p minecraft:iron_ingot 20
+- /give @p minecraft:golden_axe 1
+- /give @p minecraft:diamond_pickaxe 1
+- /give @p minecraft:sand 10
+- /give @p minecraft:gravel 10
+- /give @p minecraft:cobblestone 16
+- /give @p minecraft:ice 5
+- /give @p minecraft:snowball 16
+- /give @p minecraft:torch 10
+- /give @p minecraft:glowstone 4
+- /give @p minecraft:redstone 10
+- /give @p minecraft:lapis_lazuli 8
+- /give @p minecraft:emerald 5
+- /give @p minecraft:apple 3
+- /give @p minecraft:bow 1
+- /give @p minecraft:arrow 20
+- /give @p minecraft:ladder 10
+- /give @p minecraft:fishing_rod 1
+- /give @p minecraft:book 5
+text: build a waterfall using water buckets and stone
+thinking: '- In order to build a waterfall, we need a water bucket and some building
+  materials like stone. Additionally, a shovel can help to clear the area.'

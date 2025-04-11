@@ -1,0 +1,28 @@
+custom_init_commands:
+- /give @s minecraft:torch 16
+- /give @s minecraft:glowstone 10
+- /give @s minecraft:lantern 5
+- /give @s minecraft:sea_lantern 8
+- /give @s minecraft:ender_chest 1
+- /give @s minecraft:firework_star 3
+- /give @s minecraft:flint_and_steel 1
+- /give @s minecraft:gold_nugget 64
+- /give @s minecraft:iron_ingot 20
+- /give @s minecraft:jukebox 1
+- /give @s minecraft:lead 2
+- /give @s minecraft:leather 10
+- /give @s minecraft:lily_pad 5
+- /give @s minecraft:map 1
+- /give @s minecraft:melon_slice 3
+- /give @s minecraft:minecart 2
+- /give @s minecraft:nether_brick 10
+- /give @s minecraft:nether_star 1
+- /give @s minecraft:painting 1
+- /give @s minecraft:pearlescent_froglight 4
+- /give @s minecraft:phantom_membrane 2
+- /give @s minecraft:player_head 1
+- /give @s minecraft:polished_andesite 10
+- /weather rain
+text: light up the surroundings
+thinking: '- In order to light up the surroundings at night, you need torches or any
+  light-emitting blocks and set the time to night.'

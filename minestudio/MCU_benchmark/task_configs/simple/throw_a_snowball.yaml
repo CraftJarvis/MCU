@@ -1,0 +1,7 @@
+custom_init_commands:
+- /give @s minecraft:snowball 16
+- /give @s minecraft:iron_shovel
+- /give @s minecraft:carved_pumpkin
+text: throw a snowball
+thinking: '- In order to throw a snowball, you need at least one snowball in your
+  inventory.'

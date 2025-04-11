@@ -1,0 +1,29 @@
+custom_init_commands:
+- /give @s minecraft:stone_sword
+- /summon minecraft:pig ~5 ~ ~
+- /summon minecraft:pig ~10 ~ ~
+- /summon minecraft:pig ~8 ~ ~2
+- /summon minecraft:pig ~6 ~ ~1
+- /weather rain
+- /give @p minecraft:apple 10
+- /give @p minecraft:arrow 16
+- /give @p minecraft:bread 8
+- /give @p minecraft:carrot 5
+- /give @p minecraft:chicken 4
+- /give @p minecraft:coal 15
+- /give @p minecraft:compass 1
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 2
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:firework_rocket 5
+- /give @p minecraft:flint_and_steel 1
+- /give @p minecraft:golden_apple 1
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:leather 6
+- /give @p minecraft:oak_log 20
+- /give @p minecraft:potato 8
+- /give @p minecraft:stick 10
+- /give @p minecraft:wheat 7
+text: hunt pigs with a sword
+thinking: '- In order to hunt pigs, you need weapons and pigs nearby. A basic sword
+  can be used to quickly dispatch pigs. Pigs usually appear in grassland areas.'

@@ -1,0 +1,28 @@
+custom_init_commands:
+- /give @p minecraft:bookshelf 20
+- /give @p minecraft:oak_planks 64
+- /give @p minecraft:spruce_planks 64
+- /give @p minecraft:dark_oak_planks 64
+- /give @p minecraft:birch_planks 64
+- /give @p minecraft:crafting_table 1
+- /give @p minecraft:stone_bricks 64
+- /give @p minecraft:stone_slab 32
+- /give @p minecraft:glass_pane 32
+- /give @p minecraft:lantern 10
+- /give @p minecraft:ladder 16
+- /give @p minecraft:carpet 20
+- /give @p minecraft:iron_door 2
+- /give @p minecraft:painting 5
+- /give @p minecraft:item_frame 5
+- /give @p minecraft:lectern 2
+- /give @p minecraft:enchanted_book 3
+- /give @p minecraft:quartz_block 64
+- /give @p minecraft:anvil 1
+- /give @p minecraft:flower_pot 4
+- /give @p minecraft:oak_fence 32
+- /give @p minecraft:torch 16
+- /weather thunder
+text: build a library using bookshelves and wood planks
+thinking: '- In order to build a library, you need bookshelves, a crafting table,
+  and various building materials like wood planks, and you need space to assemble
+  them.'

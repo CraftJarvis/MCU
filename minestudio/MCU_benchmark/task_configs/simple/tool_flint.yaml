@@ -1,7 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:map
-- /fill ~1 ~ ~1 ~5 ~ ~5 minecraft:gravel
-defaults:
-- base
-- _self_
-text: 'Obtain flint by breaking gravel blocks.  '

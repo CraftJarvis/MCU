@@ -1,0 +1,26 @@
+custom_init_commands:
+- /give @s minecraft:oak_fence 5
+- /give @s minecraft:birch_fence 5
+- /give @s minecraft:dark_oak_fence 5
+- /give @s minecraft:jungle_fence 5
+- /give @s minecraft:spruce_fence 5
+- /give @s minecraft:nether_brick_fence 5
+- /give @s minecraft:iron_bars 5
+- /give @s minecraft:chain 5
+- /give @s minecraft:ladder 5
+- /give @s minecraft:vine 5
+- /give @s minecraft:scaffolding 5
+- /give @s minecraft:oak_log 5
+- /give @s minecraft:acacia_fence 3
+- /give @s minecraft:birch_log 5
+- /give @s minecraft:dark_oak_log 5
+- /give @s minecraft:acacia_log 5
+- /give @s minecraft:jungle_log 5
+- /give @s minecraft:spruce_log 5
+- /give @s minecraft:stone 10
+- /give @s minecraft:cobblestone 10
+- /give @s minecraft:dirt 10
+- /give @s minecraft:grass_block 10
+- /weather thunder
+text: stack acacia fences
+thinking: '- In order to stack acacia fences, we need at least two acacia fences.'

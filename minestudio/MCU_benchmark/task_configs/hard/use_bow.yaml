@@ -1,9 +1,35 @@
 custom_init_commands:
-- /give @s minecraft:bow
+- /give @s minecraft:stick 5
+- /give @s minecraft:string 4
+- /setblock ~2 ~ ~ minecraft:crafting_table
+- /weather thunder
+- /give @s minecraft:bow 1
 - /give @s minecraft:arrow 64
-- /summon minecraft:target ~5 ~ ~
-- /give @s minecraft:shield
-defaults:
-- base
-- _self_
-text: Use a bow to shoot and hit a target.
+- /summon minecraft:pig ~3 ~ ~
+- /summon minecraft:chicken ~4 ~ ~
+- /give @p minecraft:apple 3
+- /give @p minecraft:arrow 5
+- /give @p minecraft:beetroot 2
+- /give @p minecraft:bell 1
+- /give @p minecraft:book 2
+- /give @p minecraft:brewing_stand 1
+- /give @p minecraft:cake 1
+- /give @p minecraft:charcoal 10
+- /give @p minecraft:compass 1
+- /give @p minecraft:cooked_beef 5
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 2
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:firework_rocket 3
+- /give @p minecraft:flint_and_steel 1
+- /give @p minecraft:golden_apple 1
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:jungle_boat 1
+- /give @p minecraft:oak_stairs 4
+- /give @p minecraft:oak_trapdoor 1
+- /give @p minecraft:observer 1
+- /give @p minecraft:obsidian 3
+- /give @p minecraft:popped_chorus_fruit 2
+- /give @p minecraft:powered_rail 5
+- /give @p minecraft:prismarine 5
+text: Use bow as your weapon.

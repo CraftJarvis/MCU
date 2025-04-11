@@ -1,0 +1,25 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent obtains raw beef
+ - whether the agent interacts with a furnace
+ - whether the agent places raw beef in the furnace
+ - whether the agent places fuel in the furnace
+ - whether the agent retrieves cooked beef from the furnace
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g., placing incorrect items in the furnace, using items not related to cooking beef
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g., whether the agent recognizes if the furnace does not light up due to missing fuel and adds it
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g., using alternative fuel sources, such as lava buckets or different types of wood
+ - e.g., optimizing the process by smelting multiple beef pieces simultaneously
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective strategies were employed to minimize unnecessary repetitions or errors, such as gathering fuel and beef efficiently
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent uses appropriate fuel for smelting
+ - whether the agent selects and uses raw beef as the correct item for smelting

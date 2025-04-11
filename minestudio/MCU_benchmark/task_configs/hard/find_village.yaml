@@ -1,9 +1,27 @@
 custom_init_commands:
-- /give @s minecraft:bread 16
 - /give @s minecraft:map
-- /execute as @p at @s run fill ~-10 ~-1 ~-10 ~10 ~-1 ~10 grass_block
-- /summon minecraft:cat ~5 ~ ~
-defaults:
-- base
-- _self_
-text: Explore your surroundings to locate a village.
+- /give @s minecraft:compass
+- /give @s minecraft:cooked_beef 16
+- /give @s minecraft:bread 16
+- /give @s minecraft:arrow 64
+- /give @s minecraft:iron_axe 1
+- /give @s minecraft:leather_boots 1
+- /give @s minecraft:leather_helmet 1
+- /give @s minecraft:oak_log 10
+- /give @s minecraft:stone 20
+- /give @s minecraft:torch 16
+- /give @s minecraft:water_bucket 1
+- /give @s minecraft:iron_pickaxe 1
+- /give @s minecraft:gold_nugget 5
+- /give @s minecraft:book 3
+- /give @s minecraft:iron_ingot 5
+- /give @s minecraft:apple 5
+- /give @s minecraft:diamond 2
+- /give @s minecraft:emerald 4
+- /give @s minecraft:feather 10
+- /give @s minecraft:redstone 20
+- /give @s minecraft:firework_rocket 5
+- /weather thunder
+text: find a village using a map and a compass
+thinking: '- In order to find a village, you may need a map and a compass to navigate,
+  along with some food for the journey.'

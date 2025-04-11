@@ -1,0 +1,6 @@
+custom_init_commands:
+- /give @s minecraft:cobblestone 10
+- /give @s minecraft:quartz 10
+- /give @s minecraft:crafting_table
+text: craft diorite using cobblestone and nether quartz
+thinking: '- In order to craft diorite, you need 2 cobblestone and 2 nether quartz. '

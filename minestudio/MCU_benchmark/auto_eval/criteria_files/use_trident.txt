@@ -1,23 +1,22 @@
-**Task Progress: the key factors/steps for completing the task**  
- - whether the agent holds the trident in hand  
- - whether the agent activates the trident for flying  
- - whether the agent is in a rainy environment while flying  
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent equips the trident
+ - whether the agent aims correctly
+ - whether the agent uses the trident to attack a target
 
-**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**  
- - e.g. engaging in unrelated activities such as mining or fighting mobs while trying to fly  
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions** 
+ - e.g. switching to unrelated items in the inventory, unnecessary movements that do not contribute to aiming or attacking.
 
-**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**  
- - e.g. whether the agent recognizes when the trident is not being used correctly for flying and attempts to correct it  
- - whether the corrected results demonstrate improvement in the agent's flying technique  
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes** 
+ - e.g. whether the agent recognizes a missed throw and adjusts the aim or positioning accordingly.
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
 
-**Creative Attempts: any creative attempts exhibited by the agent during doing task**  
- - e.g. attempting to perform aerial maneuvers or tricks while flying with the trident  
- - e.g. using the trident in combination with other items or actions to enhance the flying experience  
+**Creative Attempts: any creative attempts exhibited by the agent during doing task** 
+ - e.g. using the trident’s enchantments creatively, such as using Riptide to travel.
+ - e.g. attacking multiple targets in one throw or using the trident in combination with other tools or strategies.
 
-**Task Completion Efficiency**  
- - whether the time taken by the agent to successfully fly with the trident falls within a reasonable range  
- - whether effective strategies were employed to maximize the flying time and minimize interruptions or errors  
+**Task Completion Efficiency** 
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective strategies were employed to minimize unnecessary repetitions or errors, such as retrieving the trident efficiently.
 
-**Material Selection and Usage: whether the agent correctly utilize the given materials**  
- - e.g. whether the agent selects the trident from their inventory without unnecessary delays  
- - e.g. whether the agent properly understands the conditions required to use the trident effectively (e.g., being in water to activate flying)  
+**Material Selection and Usage: whether the agent correctly utilize the given materials** 
+ - ensure the trident is used appropriately, considering durability and enchantments.

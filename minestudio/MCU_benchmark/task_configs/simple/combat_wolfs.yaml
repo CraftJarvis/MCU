@@ -1,0 +1,16 @@
+custom_init_commands:
+- /replaceitem entity @s armor.head minecraft:iron_helmet
+- /replaceitem entity @s armor.chest minecraft:iron_chestplate
+- /replaceitem entity @s armor.legs minecraft:iron_leggings
+- /replaceitem entity @s armor.feet minecraft:iron_boots
+- /replaceitem entity @s weapon.mainhand minecraft:bow
+- /give @s minecraft:arrow 64
+- /summon minecraft:wolf ~3 ~ ~1 {Angry:1}
+- /summon minecraft:wolf ~4 ~ ~2 {Angry:1}
+- /give @p minecraft:shield
+text: combat and fend off wolves
+thinking: '- In order to combat wolves, we need weapons, armor, and wolves nearby.
+  Firstly, the Iron Armor Set provides good protection. Secondly, a Bow with Arrows
+  allows for ranged attacks, which can be useful against aggressive wolves. Wolves
+  usually turn hostile when attacked, so being prepared for multiple encounters is
+  wise.'

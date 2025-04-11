@@ -1,0 +1,22 @@
+**Task Progress: the key factors/steps for completing the task**
+ - whether the agent lays out the initial boundary of the maze
+ - whether the agent creates a series of pathways and dead ends
+ - whether the agent ensures there is a start and finish point in the maze
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. excessive wandering without building, placing blocks randomly without a clear pattern
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes incorrectly placed walls or pathways that do not connect or make sense
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. incorporating unique patterns or themes into the maze design, using different levels or heights to add complexity
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective construction strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent chooses appropriate materials to distinguish pathways from walls
+ - whether the agent uses materials that enhance the maze's functionality or aesthetic appeal

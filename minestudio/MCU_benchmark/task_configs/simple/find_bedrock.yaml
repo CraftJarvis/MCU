@@ -1,0 +1,8 @@
+custom_init_commands:
+- /setblock ~ ~ ~1 minecraft:bedrock
+- /give @s minecraft:iron_pickaxe
+- /summon minecraft:bat ~3 ~ ~3
+text: find bedrock at the bottom of the world
+thinking: '- In order to find bedrock, you need to reach the bottom layers of the
+  world, as bedrock naturally forms at the lowest levels of the overworld. You can
+  also summon it directly for convenience.'

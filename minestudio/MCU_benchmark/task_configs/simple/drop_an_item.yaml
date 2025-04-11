@@ -1,0 +1,6 @@
+custom_init_commands:
+- /give @s minecraft:stone 5
+- /give @s minecraft:torch 10
+- /give @s minecraft:oak_planks 20
+text: drop an item from your inventory
+thinking: '- In order to drop an item, you need to have an item in your inventory.'

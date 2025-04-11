@@ -1,22 +1,23 @@
 **Task Progress: the key factors/steps for completing the task** 
- - whether the agent finds and interacts with a sheep
- - whether the agent uses dye on the sheep
- - whether the agent shears the dyed sheep to obtain wool
+ - whether the agent locates and identifies sheep
+ - whether the agent successfully shears the sheep to collect wool
+ - whether the agent collects a sufficient amount of wool
 
 **Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
- - e.g. attacking the sheep instead of dyeing it, unnecessary movement around the environment, or interacting with other animals.
+ - e.g. attacking sheep instead of shearing them
+ - wandering aimlessly without interacting with sheep
 
 **Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
- - e.g. whether the agent recognizes if it uses the wrong dye or shears a sheep without dyeing it first, and proceeds to correct the mistake.
+ - e.g. whether agents recognize incorrect tool usage (e.g., using a sword instead of shears) and switch to the correct tool
  - whether the corrected results demonstrate improvement and reduce flaws in the final product.
 
 **Creative Attempts: any creative attempts exhibited by the agent during doing task**
- - e.g. using multiple dyes to create different colors of wool.
- - e.g. implementing efficient methods to handle multiple sheep for faster wool collection.
+ - e.g. using dyes to color wool before collecting
+ - e.g. building a temporary pen to gather sheep for easier shearing
 
 **Task Completion Efficiency**
  - whether the time taken by the agent to complete the task falls within a reasonable range.
- - whether effective strategies were employed to minimize unnecessary repetitions or errors in finding, dyeing, and shearing the sheep.
+ - whether effective strategies were employed to locate and shear sheep quickly
 
 **Material Selection and Usage: whether the agent correctly utilize the given materials**
- - whether the agent uses the appropriate dye and shears in the correct sequence to achieve the task.
+ - e.g. whether the agent uses shears instead of other tools to collect wool

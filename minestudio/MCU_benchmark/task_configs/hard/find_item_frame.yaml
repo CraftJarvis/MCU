@@ -1,0 +1,7 @@
+custom_init_commands:
+- /summon minecraft:item_frame ~5 ~ ~ 
+- /summon minecraft:item_frame ~ ~ ~5 
+- /weather thunder
+text: find an oak door
+thinking: '- In order to find an oak door, we need to make sure there is an oak door
+  nearby.'

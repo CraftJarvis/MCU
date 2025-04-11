@@ -1,0 +1,24 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent selects and holds acacia fence blocks
+ - whether the agent places the first acacia fence block
+ - whether the agent stacks multiple acacia fence blocks vertically
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. placing other types of blocks instead of acacia fences
+ - e.g. unnecessary movements or actions that do not contribute to stacking acacia fences
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes misplaced blocks and corrects them
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. creating patterns or designs with the acacia fences
+ - e.g. using other blocks creatively to enhance the appearance of the fence stack
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective construction strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent exclusively uses acacia fence blocks for stacking
+ - whether the agent efficiently manages the inventory to avoid running out of acacia fences during the task

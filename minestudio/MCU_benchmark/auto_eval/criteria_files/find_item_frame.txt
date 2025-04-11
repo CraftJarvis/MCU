@@ -1,0 +1,22 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent identifies the location where the item frame is likely to be
+ - whether the agent navigates towards the identified location
+ - whether the agent successfully locates and visually confirms the item frame
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. wandering aimlessly without clear direction, interacting with unrelated items or blocks
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes incorrect paths or locations and adjusts its course accordingly
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. utilizes unique navigation strategies or shortcuts to reach the item frame
+ - e.g. employs environmental cues to assist in finding the item frame
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective navigation strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials** 
+ - Not applicable directly, but assess if the agent uses any tools or items effectively to aid in locating the item frame

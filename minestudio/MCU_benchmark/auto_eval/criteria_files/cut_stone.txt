@@ -1,25 +1,23 @@
-**Task Progress: the key factors/steps for completing the task**  
- - whether the agent places the stonecutter in the desired location  
- - whether the agent interacts with the stonecutter  
- - whether the agent selects the stone from the inventory to cut  
- - whether the agent successfully cuts the stone using the stonecutter  
+**Task Progress: the key factors/steps for completing the task** 
+- whether the agent locates and selects the stone block
+- whether the agent uses the correct tool to cut the stone
+- whether the agent successfully cuts the stone into the desired size or shape
 
-**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**  
- - e.g. wandering away from the stonecutter after placement  
- - e.g. attempting to interact with unrelated blocks or items  
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+- e.g. using incorrect tools that do not affect stone, wandering aimlessly without interacting with stone
 
-**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**  
- - e.g. whether the agent recognizes if the stonecutter is not placed correctly or not functioning  
- - whether the corrected results demonstrate improvement, such as properly selecting the stone to cut  
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+- e.g. whether the agent detects using an incorrect tool and switches to a suitable one
+- whether the corrected results demonstrate improvement and reduce flaws in the final product
 
-**Creative Attempts: any creative attempts exhibited by the agent during doing task**  
- - e.g. try to use different types of stones to see what can be cut  
- - e.g. arrange the cut stones in a unique pattern or structure  
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+- e.g. experimenting with cutting different shapes out of the stone
+- e.g. utilizing different methods or strategies to enhance the cutting process
 
-**Task Completion Efficiency**  
- - whether the time taken by the agent to complete the task falls within a reasonable range  
- - whether effective strategies were employed to minimize unnecessary actions or errors  
+**Task Completion Efficiency**
+- whether the time taken by the agent to complete the task falls within a reasonable range
+- whether effective strategies were employed to minimize unnecessary repetitions or errors in cutting
 
-**Material Selection and Usage: whether the agent correctly utilize the given materials**  
- - e.g. whether the agent uses the correct type of stone for cutting  
- - whether the agent ensures the stonecutter is used appropriately with the right materials  
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+- whether the agent selects the appropriate tool for cutting stone
+- whether the agent conserves materials by minimizing waste during cutting

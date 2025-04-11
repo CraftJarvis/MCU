@@ -1,9 +1,29 @@
 custom_init_commands:
-- /give @s minecraft:oak_planks 10
-- /give @s minecraft:crafting_table 1
-- /give @s minecraft:stick 16
-- /time set day
-defaults:
-- base
-- _self_
-text: Open your inventory and craft a crafting table using wooden planks.
+- /weather thunder
+- /give @p minecraft:oak_log 4
+- /give @p minecraft:spruce_log 4
+- /setblock ~2 ~ ~ minecraft:crafting_table
+- /give @p minecraft:stone 10
+- /give @p minecraft:iron_ingot 5
+- /give @p minecraft:gold_nugget 8
+- /give @p minecraft:diamond 2
+- /give @p minecraft:redstone 10
+- /give @p minecraft:apple 5
+- /give @p minecraft:leather 3
+- /give @p minecraft:arrow 12
+- /give @p minecraft:bow 1
+- /give @p minecraft:iron_pickaxe 1
+- /give @p minecraft:torch 16
+- /give @p minecraft:water_bucket 1
+- /give @p minecraft:bread 6
+- /give @p minecraft:emerald 3
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:coal 10
+- /give @p minecraft:bucket 1
+- /give @p minecraft:compass 1
+- /give @p minecraft:carrot 4
+- /give @p minecraft:potato 2
+- /give @p minecraft:spruce_planks 5
+text: craft a crafting table
+thinking: '- In order to craft a crafting table, we need at least 4 planks. Since
+  planks come from logs, we need logs first.'

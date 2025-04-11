@@ -1,10 +1,28 @@
 custom_init_commands:
-- /give @s minecraft:oak_fence_gate 10
-- /give @s minecraft:torch 20
-- /give @s minecraft:stone_bricks 64
-- /give @s minecraft:poppy 5
-- /time set day
-defaults:
-- base
-- _self_
-text: Build a gate to secure your area or entrance.
+- /give @s minecraft:oak_planks 3
+- /give @s minecraft:stick 6
+- /setblock ~2 ~ ~ minecraft:crafting_table
+- /weather thunder
+- /give @p minecraft:apple 10
+- /give @p minecraft:acacia_boat 1
+- /give @p minecraft:arrow 5
+- /give @p minecraft:beetroot 2
+- /give @p minecraft:bell 1
+- /give @p minecraft:book 2
+- /give @p minecraft:brewing_stand 1
+- /give @p minecraft:cake 1
+- /give @p minecraft:charcoal 10
+- /give @p minecraft:compass 1
+- /give @p minecraft:cooked_beef 5
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 2
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:firework_rocket 3
+- /give @p minecraft:flint_and_steel 1
+- /give @p minecraft:golden_apple 1
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:jungle_boat 1
+- /give @p minecraft:oak_planks 5
+text: build a gate using a crafting table
+thinking: '- In order to build a gate, you need at least 4 sticks and 2 wooden planks.
+  You might also need a crafting table to craft it.'

@@ -1,9 +1,32 @@
 custom_init_commands:
-- /give @s minecraft:blue_bed
+- /replaceitem entity @s weapon.mainhand minecraft:iron_sword
+- /give @s minecraft:white_bed 1
+- /setblock ~2 ~ ~ minecraft:white_bed
 - /time set night
-- /give @s minecraft:torch 10
-- /give @s minecraft:flower_pot 5
-defaults:
-- base
-- _self_
-text: Place a bed and sleep in it to skip the night.
+- /weather thunder
+- /give @p minecraft:stone 64
+- /give @p minecraft:acacia_planks 10
+- /give @p minecraft:andesite 5
+- /give @p minecraft:apple 3
+- /give @p minecraft:arrow 10
+- /give @p minecraft:beetroot 5
+- /give @p minecraft:birch_log 7
+- /give @p minecraft:book 3
+- /give @p minecraft:bow 1
+- /give @p minecraft:brick 8
+- /give @p minecraft:bread 4
+- /give @p minecraft:carrot 6
+- /give @p minecraft:charcoal 5
+- /give @p minecraft:chicken 3
+- /give @p minecraft:clay_ball 9
+- /give @p minecraft:coal 12
+- /give @p minecraft:compass 1
+- /give @p minecraft:cooked_beef 7
+- /give @p minecraft:diamond 2
+- /give @p minecraft:emerald 1
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:firework_rocket 4
+- /give @p minecraft:flint 6
+- /give @p minecraft:gold_ingot 2
+text: sleep in a bed
+thinking: '- In order to sleep in a bed, we need a bed and it must be nighttime.'

@@ -1,10 +1,28 @@
 custom_init_commands:
-- /give @s minecraft:iron_pickaxe
-- /execute as @p at @s run fill ~1 ~-4 ~1 ~10 ~-1 ~10 stone
-- /execute as @p at @s run fill ~5 ~-2 ~5 ~7 ~-2 ~7 diamond_ore
-- /give @s minecraft:torch 64
-- /time set night
-defaults:
-- base
-- _self_
-text: Locate and mine diamonds deep underground.
+- /replaceitem entity @s weapon.mainhand minecraft:iron_pickaxe
+- /execute as @p at @s run fill ~5 ~-2 ~5 ~10 ~-5 ~10 diamond_ore
+- /effect give @p minecraft:blindness 60 1
+- /weather thunder
+- /give @p minecraft:acacia_boat 1
+- /give @p minecraft:apple 3
+- /give @p minecraft:arrow 5
+- /give @p minecraft:beetroot 2
+- /give @p minecraft:bell 1
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 5
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:firework_rocket 3
+- /give @p minecraft:flint_and_steel 1
+- /give @p minecraft:golden_apple 1
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:jungle_boat 1
+- /give @p minecraft:oak_planks 4
+- /give @p minecraft:obsidian 3
+- /give @p minecraft:potato 3
+- /give @p minecraft:prismarine 5
+- /give @p minecraft:pumpkin_pie 2
+- /give @p minecraft:purple_dye 2
+- /give @p minecraft:acacia_planks 4
+text: find and mine diamond ore
+thinking: '- In order to find a diamond, we need to ensure there is diamond ore nearby
+  and have an iron pickaxe to mine it.'

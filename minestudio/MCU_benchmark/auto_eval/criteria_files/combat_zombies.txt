@@ -1,23 +1,25 @@
 **Task Progress: the key factors/steps for completing the task** 
- - whether the agent identifies and locates a zombie
- - whether the agent engages the zombie in combat
- - whether the agent successfully defeats the zombie
+ - whether the agent identifies and locates zombies
+ - whether the agent effectively uses weapons or tools to combat zombies
+ - whether the agent defeats a certain number of zombies
+ - whether the agent maintains health during combat
 
 **Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
- - e.g. attacking unrelated mobs, breaking blocks unnecessarily, or wandering aimlessly.
+ - e.g. wandering aimlessly without engaging zombies
+ - e.g. using resources unrelated to combat, such as building blocks
 
 **Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
- - e.g. whether the agent recognizes when it misses an attack or is taking too much damage and adjusts its strategy.
- - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+ - e.g. whether the agent recognizes ineffective combat strategies and adjusts them
+ - whether the agent avoids or addresses situations that lower its health significantly
 
 **Creative Attempts: any creative attempts exhibited by the agent during doing task**
- - e.g. using environment to its advantage, like luring the zombie into traps or using terrain for tactical advantage.
- - e.g. using different weapons or combat techniques.
+ - e.g. using terrain or environment creatively to gain an advantage in combat
+ - e.g. utilizing a variety of weapons or combat strategies
 
 **Task Completion Efficiency**
- - whether the time taken by the agent to complete the task falls within a reasonable range.
- - whether effective combat strategies were employed to minimize unnecessary movements or attacks.
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective combat strategies were employed to minimize unnecessary damage or delays
 
 **Material Selection and Usage: whether the agent correctly utilize the given materials**
- - whether the agent selects appropriate weapons or armor for combat.
- - whether the agent uses any available potions or food items to maintain health during combat.
+ - whether the agent selects appropriate weapons and gear for combating zombies
+ - whether the agent efficiently manages resources like food or potions to maintain health and combat readiness

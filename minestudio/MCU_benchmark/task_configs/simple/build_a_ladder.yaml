@@ -1,8 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:stick 32
-- /give @s minecraft:crafting_table 1
-- /give @s minecraft:oak_planks 16
-- /give @s minecraft:torch 10
-text: build a ladder using sticks
-thinking: '- In order to build a ladder, we need at least 7 sticks to craft a ladder
-  using a crafting table.'

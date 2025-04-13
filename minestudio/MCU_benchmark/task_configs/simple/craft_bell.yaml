@@ -1,7 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:iron_ingot 10
-- /give @s minecraft:gold_ingot 5
-- /give @s minecraft:crafting_table 1
-text: craft a bell
-thinking: '- In order to craft a bell, you need at least 6 iron ingots and 1 gold
-  ingot. You will also need a crafting table to craft the bell.'

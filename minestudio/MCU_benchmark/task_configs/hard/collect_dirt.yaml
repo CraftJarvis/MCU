@@ -1,7 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:wooden_shovel
-- /execute as @p at @s run fill ~4 ~-1 ~4 ~8 ~-1 ~8 minecraft:dirt
-- /weather thunder
-text: collect dirt using a wooden shovel
-thinking: '- In order to collect dirt, we need a tool like a wooden shovel to speed
-  up the process and ensure there is dirt nearby to collect.'

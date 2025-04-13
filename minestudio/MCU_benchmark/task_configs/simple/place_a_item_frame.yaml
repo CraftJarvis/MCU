@@ -1,7 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:item_frame 5
-- /give @s minecraft:oak_planks 64
-- /give @s minecraft:torch 10
-text: place an item frame on a solid surface
-thinking: '- In order to place an item frame, we need an item frame in our inventory
-  and a solid surface to attach it to.'

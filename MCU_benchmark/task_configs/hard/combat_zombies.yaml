@@ -1,0 +1,17 @@
+custom_init_commands:
+- /replaceitem entity @s armor.head minecraft:iron_helmet
+- /replaceitem entity @s armor.chest minecraft:iron_chestplate
+- /replaceitem entity @s armor.legs minecraft:iron_leggings
+- /replaceitem entity @s armor.feet minecraft:iron_boots
+- /replaceitem entity @s weapon.mainhand minecraft:iron_sword
+- /time set night
+- /effect give @a night_vision 99999 250 true
+- /summon minecraft:zombie ~3 ~ ~
+- /summon minecraft:zombie ~ ~ ~-2
+- /summon minecraft:zombie ~1 ~ ~-4
+- /give @p minecraft:tnt 32
+text: combat and kill zombies
+thinking: '- In order to combat zombies, we need weapons, armor, and zombies nearby.
+  Firstly, the Iron Armor Set offers good protection, and an Iron Sword can effectively
+  combat zombies. Additionally, items like TNT can help eliminate multiple zombies
+  at once. Zombies usually appear at night, so we need night vision.'

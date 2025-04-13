@@ -1,0 +1,22 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent identifies the designated wall for decoration
+ - whether the agent places decorative elements on the wall
+ - whether the decoration covers a significant portion of the wall
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. placing or removing blocks unrelated to the task, aimless movement around the area.
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent identifies misplaced decorations and corrects them
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. creating patterns or designs that enhance the wall's visual appeal
+ - e.g. experimenting with different materials or colors for a unique look
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective decoration strategies were employed to minimize unnecessary repetitions or errors.
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - e.g. using appropriate materials for the wall decoration, ensuring they align with the task's aesthetic goals.

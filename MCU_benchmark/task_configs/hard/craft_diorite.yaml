@@ -1,0 +1,28 @@
+custom_init_commands:
+- /give @p minecraft:crafting_table
+- /give @p minecraft:apple 10
+- /give @p minecraft:oak_log 5
+- /give @p minecraft:iron_ingot 8
+- /give @p minecraft:golden_apple 3
+- /give @p minecraft:bread 6
+- /give @p minecraft:carrot 4
+- /give @p minecraft:diamond 2
+- /give @p minecraft:stick 12
+- /give @p minecraft:coal 10
+- /give @p minecraft:lapis_lazuli 5
+- /give @p minecraft:redstone 8
+- /give @p minecraft:sand 20
+- /give @p minecraft:clay_ball 5
+- /give @p minecraft:cobblestone 2
+- /give @p minecraft:nether_quartz 2
+- /give @p minecraft:paper 6
+- /give @p minecraft:feather 4
+- /give @p minecraft:gunpowder 7
+- /give @p minecraft:leather 5
+- /give @p minecraft:string 10
+- /give @p minecraft:rotten_flesh 15
+- /give @p minecraft:netherrack 12
+- /give @p minecraft:emerald 3
+- /weather thunder
+text: craft diorite using cobblestone and nether quartz
+thinking: '- In order to craft diorite, you need 2 cobblestone and 2 nether quartz.'

@@ -1,0 +1,31 @@
+custom_init_commands:
+- /give @s minecraft:stone 64
+- /give @s minecraft:stone_bricks 32
+- /give @s minecraft:ladder 16
+- /give @s minecraft:torch 10
+- /give @s minecraft:oak_planks 32
+- /give @s minecraft:glass 16
+- /give @s minecraft:cobblestone 32
+- /weather rain
+- /give @p minecraft:acacia_boat 1
+- /give @p minecraft:apple 3
+- /give @p minecraft:arrow 5
+- /give @p minecraft:beetroot 2
+- /give @p minecraft:bell 1
+- /give @p minecraft:book 2
+- /give @p minecraft:brewing_stand 1
+- /give @p minecraft:cake 1
+- /give @p minecraft:charcoal 10
+- /give @p minecraft:compass 1
+- /give @p minecraft:cooked_beef 5
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 2
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:firework_rocket 3
+- /give @p minecraft:flint_and_steel 1
+- /give @p minecraft:golden_apple 1
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:jungle_boat 1
+text: build a tower using available materials
+thinking: '- In order to build a tower, we need blocks to construct it and enough
+  space to build.'

@@ -1,0 +1,26 @@
+To generate the score points for the task "combat_wolfs," we will evaluate the agent's performance based on various criteria. Here's how it can be structured:
+
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent identifies and locates the wolves
+ - whether the agent engages in combat with the wolves
+ - whether the agent successfully defeats the wolves
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. unnecessary wandering or retreating from the wolves without strategic intent
+ - e.g. performing unrelated tasks like interacting with non-combat items or structures during combat
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent notices ineffective combat strategies and adjusts accordingly
+ - whether the agent recognizes when it is in danger and takes corrective actions such as retreating or healing
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using terrain or obstacles creatively to gain an advantage over the wolves
+ - e.g. employing a variety of weapons or tactics to defeat the wolves
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective combat strategies were employed to minimize unnecessary actions or prolonged engagement
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent selects appropriate weapons and armor for combat
+ - whether the agent effectively uses consumables like food or potions to maintain health during combat

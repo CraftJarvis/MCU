@@ -1,0 +1,18 @@
+custom_init_commands:
+- /replaceitem entity @s armor.head minecraft:iron_helmet
+- /replaceitem entity @s armor.chest minecraft:iron_chestplate
+- /replaceitem entity @s armor.legs minecraft:iron_leggings
+- /replaceitem entity @s armor.feet minecraft:iron_boots
+- /replaceitem entity @s weapon.mainhand minecraft:iron_sword
+- /time set night
+- /effect give @a night_vision 99999 250 true
+- /summon minecraft:enderman ~4 ~ ~
+- /summon minecraft:enderman ~-4 ~ ~
+- /summon minecraft:enderman ~ ~ ~-5
+text: combat and kill Endermen
+thinking: '- In order to combat an Enderman, we need weapons, armor, and Endermen
+  nearby. The Diamond Armor Set is recommended for high protection, and a Diamond
+  Sword is effective for attacking. Be aware that Endermen teleport, so having Ender
+  Pearls for quick escapes is useful. Endermen are more aggressive at night, so setting
+  the time to night and giving night vision can be helpful. Additionally, rain can
+  deter Endermen as they dislike water.'

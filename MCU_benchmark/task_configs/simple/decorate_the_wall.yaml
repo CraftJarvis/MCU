@@ -1,0 +1,14 @@
+custom_init_commands:
+- /give @s minecraft:painting 5
+- /give @s minecraft:item_frame 5
+- /give @s minecraft:flower_pot 3
+- /give @s minecraft:torch 10
+- /give @s minecraft:blue_bed 1
+- /give @s minecraft:red_dye 10
+- /give @s minecraft:oak_planks 64
+- /execute as @p at @s run fill ~ ~ ~1 ~ ~4 ~4 minecraft:stone
+text: decorate a wall with various decorative items
+thinking: '- In order to decorate the wall, you might need a variety of decorative
+  items such as paintings, item frames, flower pots with flowers, and torches. A crafting
+  table can be useful for crafting some items, and you might also want some blocks
+  for the wall itself if needed.'

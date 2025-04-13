@@ -1,0 +1,24 @@
+For the task "explore_climb.yaml," which involves exploring and climbing in a Minecraft environment, the scoring criteria should focus on the agent's ability to navigate and ascend terrain effectively. Here are the score points for this task:
+
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent identifies and approaches a climbable area
+ - whether the agent successfully climbs to a higher elevation
+ - whether the agent explores the surrounding area after climbing
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. agents wandering aimlessly or performing unnecessary movements that do not contribute to climbing or exploring
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes inefficient climbing paths and adjusts its route
+ - whether the corrected actions demonstrate improvement and reduce time or effort in climbing
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using tools or blocks to assist in climbing
+ - e.g. finding alternative or more efficient routes for exploration
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective navigation and climbing strategies were employed to minimize time and effort
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent effectively uses available tools or blocks for climbing and exploration purposes

@@ -1,0 +1,23 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent gathers the necessary materials (honeycombs and planks)
+ - whether the agent opens the crafting table or recipe book
+ - whether the agent successfully crafts a bee nest
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. gathering unnecessary materials, opening unrelated interfaces or crafting other items.
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes incorrect material placement in the crafting grid
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using different methods to gather materials efficiently
+ - e.g. crafting additional items related to beekeeping, like honey bottles or hives.
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective crafting strategies were employed to minimize unnecessary repetitions or errors.
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent selects the correct materials (honeycombs and planks) for crafting a bee nest
+ - whether the materials are used efficiently without wastage.

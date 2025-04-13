@@ -1,0 +1,27 @@
+custom_init_commands:
+- /weather thunder
+- /give @s minecraft:diamond_shovel{Enchantments:[{id:"minecraft:silk_touch",lvl:1}]}
+- /setblock ~2 ~ ~ minecraft:grass_block
+- /setblock ~3 ~ ~ minecraft:grass_block
+- /setblock ~4 ~ ~ minecraft:grass_block
+- /give @p minecraft:stone 10
+- /give @p minecraft:oak_fence 5
+- /give @p minecraft:torch 20
+- /give @p minecraft:water_bucket 1
+- /give @p minecraft:iron_axe 1
+- /give @p minecraft:leather_boots 1
+- /give @p minecraft:egg 3
+- /give @p minecraft:book 5
+- /give @p minecraft:carrot 8
+- /give @p minecraft:gold_ingot 4
+- /give @p minecraft:feather 6
+- /give @p minecraft:cobblestone 12
+- /give @p minecraft:sand 15
+- /give @p minecraft:lapis_lazuli 7
+- /give @p minecraft:coal 9
+- /give @p minecraft:iron_pickaxe 1
+- /give @p minecraft:oak_sapling 3
+- /give @p minecraft:bone 2
+text: collect grass blocks using a Silk Touch shovel
+thinking: '- In order to collect grass, we need a shovel with the Silk Touch enchantment
+  and grass blocks nearby.'

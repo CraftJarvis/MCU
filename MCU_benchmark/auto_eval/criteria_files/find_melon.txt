@@ -1,0 +1,21 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent recognizes a melon in the environment
+ - whether the agent navigates towards the melon
+ - whether the agent successfully collects the melon
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. wandering aimlessly, interacting with unrelated objects, or destroying blocks unnecessarily.
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent can recognize a wrong path and adjust course to find the melon.
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using tools or strategies to efficiently locate melons, or finding multiple melons at once.
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective exploration strategies were employed to minimize unnecessary repetitions or errors.
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - e.g. if tools or items are used to assist in finding or collecting melons, whether they are used correctly and efficiently.

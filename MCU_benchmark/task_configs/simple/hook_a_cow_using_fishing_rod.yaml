@@ -1,0 +1,9 @@
+custom_init_commands:
+- /summon minecraft:cow ~2 ~ ~1
+- /replaceitem entity @s weapon.mainhand minecraft:fishing_rod
+- /give @s minecraft:fishing_rod 2
+- /give @s minecraft:carrot 5
+- /time set day
+text: hook a cow using a fishing rod
+thinking: '- In order to hook a cow using a fishing rod, we need a fishing rod and
+  a cow nearby.'

@@ -1,0 +1,12 @@
+custom_init_commands:
+- /summon minecraft:witch ~3 ~ ~3
+- /give @s minecraft:oak_boat 2
+- /replaceitem entity @s weapon.mainhand minecraft:oak_boat
+- /time set midnight
+- /replaceitem entity @s armor.head minecraft:diamond_helmet
+- /replaceitem entity @s armor.chest minecraft:diamond_chestplate
+- /replaceitem entity @s armor.legs minecraft:diamond_leggings
+- /replaceitem entity @s armor.feet minecraft:diamond_boots
+- /replaceitem entity @s weapon.mainhand minecraft:diamond_sword
+- /summon minecraft:spider ~3 ~ ~
+text: trap_a_witch_with_a_boat_and_combat_spiders

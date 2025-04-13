@@ -1,0 +1,14 @@
+custom_init_commands:
+- /summon minecraft:chicken ~5 ~ ~5
+- /summon minecraft:chicken ~-5 ~ ~-5
+- /give @s minecraft:fishing_rod
+- /give @s minecraft:stone 64
+- /give @s minecraft:oak_log 32
+- /give @s minecraft:iron_ingot 5
+- /give @s minecraft:gold_nugget 10
+- /give @s minecraft:diamond 2
+- /give @s minecraft:emerald 2
+- /replaceitem entity @s weapon.mainhand minecraft:iron_sword
+text: hook a chicken using a fishing rod
+thinking: '- In order to hook a chicken using a fishing rod, you need a fishing rod
+  and a chicken nearby.'

@@ -1,0 +1,9 @@
+custom_init_commands:
+- /give @s minecraft:stone_bricks 128
+- /give @s minecraft:oak_planks 64
+- /give @s minecraft:torch 20
+- /give @s minecraft:blue_bed
+- /time set day
+text: build a maze using stone bricks
+thinking: '- In order to build a maze, you need building materials like stone bricks
+  or wooden planks, and a location to construct the maze.'

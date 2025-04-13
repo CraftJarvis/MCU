@@ -1,0 +1,8 @@
+custom_init_commands:
+- /give @p minecraft:trident
+- /summon minecraft:pig ~3 ~ ~
+- /summon minecraft:chicken ~4 ~ ~
+defaults:
+- base
+- _self_
+text: use trident to hunt animals

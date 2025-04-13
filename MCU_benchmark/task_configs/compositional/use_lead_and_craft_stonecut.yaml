@@ -1,0 +1,8 @@
+custom_init_commands:
+- /give @p minecraft:lead
+- /summon minecraft:pig ~3 ~ ~
+- /summon minecraft:chicken ~4 ~ ~
+- /give @s minecraft:stone 15
+- /give @s minecraft:iron_ingot 5
+- /give @s minecraft:crafting_table 1
+text: use_lead_and_craft_stonecut

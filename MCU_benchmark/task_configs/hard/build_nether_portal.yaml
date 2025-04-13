@@ -1,0 +1,31 @@
+custom_init_commands:
+- /give @s minecraft:obsidian 12
+- /give @s minecraft:flint_and_steel
+- /weather thunder
+- /give @p minecraft:stone 20
+- /give @p minecraft:oak_log 15
+- /give @p minecraft:sand 10
+- /give @p minecraft:glass 8
+- /give @p minecraft:iron_ingot 6
+- /give @p minecraft:gold_ingot 4
+- /give @p minecraft:diamond 3
+- /give @p minecraft:redstone 10
+- /give @p minecraft:coal 16
+- /give @p minecraft:wheat_seeds 5
+- /give @p minecraft:carrot 3
+- /give @p minecraft:potato 3
+- /give @p minecraft:beef 5
+- /give @p minecraft:torch 10
+- /give @p minecraft:ladder 6
+- /give @p minecraft:water_bucket 1
+- /give @p minecraft:lava_bucket 1
+- /give @p minecraft:book 2
+- /give @p minecraft:oak_door 1
+- /give @p minecraft:emerald 2
+- /setblock ~1 ~ ~ obsidian
+- /setblock ~1 ~1 ~ obsidian
+- /setblock ~1 ~2 ~ obsidian
+- /setblock ~1 ~3 ~ obsidian
+text: build a nether portal
+thinking: '- In order to build a nether portal, we need at least 10 obsidian blocks
+  and a flint and steel to ignite it.'

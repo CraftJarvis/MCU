@@ -1,0 +1,10 @@
+custom_init_commands:
+- /give @s minecraft:honeycomb 10
+- /give @s minecraft:oak_planks 20
+- /give @s minecraft:crafting_table
+- /summon minecraft:bee ~3 ~ ~3
+- /give @s minecraft:iron_axe
+text: create a bee nest-like structure
+thinking: '- In order to craft a bee nest, you need to gather honeycomb and wooden
+  planks, as crafting a bee nest is not possible in vanilla Minecraft. However, you
+  can create a similar structure using the materials.'

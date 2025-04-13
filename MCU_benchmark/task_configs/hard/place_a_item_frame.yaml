@@ -1,0 +1,28 @@
+custom_init_commands:
+- /give @p minecraft:oak_planks 10
+- /give @p minecraft:stone 5
+- /give @p minecraft:iron_ingot 15
+- /give @p minecraft:book 4
+- /give @s minecraft:item_frame 1
+- /give @p minecraft:bread 8
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 5
+- /give @p minecraft:arrow 10
+- /give @p minecraft:coal 10
+- /give @p minecraft:feather 5
+- /give @p minecraft:glass_bottle 3
+- /give @p minecraft:gold_ingot 4
+- /give @p minecraft:leather 6
+- /give @p minecraft:melon_slice 3
+- /give @p minecraft:nether_wart 2
+- /give @p minecraft:redstone 7
+- /give @p minecraft:sugar 5
+- /give @p minecraft:string 8
+- /give @p minecraft:water_bucket 1
+- /give @p minecraft:torch 5
+- /give @p minecraft:carrot 3
+- /give @p minecraft:potato 3
+- /time set night
+text: place an item frame on a block
+thinking: '- In order to place an item frame, we need an item frame in our inventory
+  and a block surface to place it on.'

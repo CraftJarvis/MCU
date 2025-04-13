@@ -1,0 +1,31 @@
+custom_init_commands:
+- /execute as @p at @s run fill ~2 ~-1 ~2 ~3 ~ ~3 minecraft:iron_ore
+- /weather thunder
+- /give @s minecraft:wooden_pickaxe
+- /give @s minecraft:diamond_sword
+- /give @p minecraft:diamond_helmet
+- /give @p minecraft:diamond_chestplate
+- /give @p minecraft:diamond_leggings
+- /give @p minecraft:diamond_boots
+- /give @p minecraft:bread 10
+- /give @p minecraft:carrot 5
+- /give @p minecraft:compass 1
+- /give @s minecraft:stone_pickaxe
+- /give @p minecraft:bucket 1
+- /give @p minecraft:water_bucket 1
+- /give @p minecraft:lava_bucket 1
+- /give @p minecraft:torch 20
+- /give @p minecraft:coal 10
+- /give @p minecraft:emerald 5
+- /give @p minecraft:potato 3
+- /give @p minecraft:apple 5
+- /give @p minecraft:oak_log 10
+- /give @p minecraft:iron_ingot 5
+- /give @p minecraft:golden_apple 1
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:flint_and_steel 1
+- /give @p minecraft:bow
+- /give @p minecraft:arrow 20
+text: mine iron ore with a stone pickaxe
+thinking: '- In order to mine iron ore, we need at least a stone pickaxe or a better
+  one, and have iron ore nearby.'

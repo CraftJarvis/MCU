@@ -1,0 +1,6 @@
+custom_init_commands:
+- /give @s minecraft:shears
+- /execute as @p at @s run fill ~3 ~1 ~3 ~-3 ~1 ~-3 minecraft:tall_grass replace minecraft:air
+text: clean the weeds
+thinking: '- In order to clean the weeds, we need shears and a grassy area with tall
+  grass or flowers.'

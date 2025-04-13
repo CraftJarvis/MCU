@@ -1,0 +1,6 @@
+custom_init_commands:
+- /give @s minecraft:acacia_fence 30
+- /give @s minecraft:oak_planks 20
+- /summon minecraft:chicken ~3 ~ ~3
+text: stack acacia fences
+thinking: '- In order to stack acacia fences, we need some acacia fences in our inventory.'

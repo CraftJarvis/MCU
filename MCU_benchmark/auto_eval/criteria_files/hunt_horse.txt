@@ -1,0 +1,26 @@
+To generate the score points for the task "hunt_horse.yaml," which involves hunting a horse in Minecraft, I will outline the grading criteria as follows:
+
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent locates and approaches a horse
+ - whether the agent engages the horse in a manner suitable for hunting
+ - whether the agent successfully hunts (defeats) the horse
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. unnecessary wandering without focusing on horse tracking
+ - e.g. engaging with non-target entities or objects unrelated to the task
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes missed attacks or inefficient hunting strategies
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product, such as more efficient hunting techniques
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. employing different weapons or strategies to hunt the horse
+ - e.g. utilizing terrain or environment to gain an advantage in hunting
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective hunting strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - e.g. whether the agent selects appropriate weapons or tools for hunting the horse
+ - e.g. whether the agent effectively manages inventory items related to the task

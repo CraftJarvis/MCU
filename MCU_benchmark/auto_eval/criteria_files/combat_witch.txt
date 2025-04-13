@@ -1,0 +1,25 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent locates the witch
+ - whether the agent engages the witch in combat
+ - whether the agent successfully defeats the witch
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent uses appropriate weapons, such as a sword or bow
+ - whether the agent uses any protective gear like armor or shields to defend against attacks
+ - whether the agent utilizes potions or other consumables to aid in combat
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. performing unnecessary actions like attacking other mobs not related to the task
+ - wandering aimlessly without engaging the witch
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. recognizing when it is low on health and taking corrective actions like consuming healing items
+ - adjusting strategies if initial attack methods are ineffective against the witch
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using the environment to gain a combat advantage, such as taking cover or using terrain
+ - employing unique tactics like using traps or leading the witch into hazards
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective combat strategies were employed to minimize damage and maximize attack effectiveness

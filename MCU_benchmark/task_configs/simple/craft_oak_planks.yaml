@@ -1,0 +1,6 @@
+custom_init_commands:
+- /give @s minecraft:oak_log 10
+- /give @s minecraft:crafting_table
+- /give @s minecraft:apple 5
+text: craft oak planks from oak logs
+thinking: '- In order to craft oak planks, you need at least one oak log.'

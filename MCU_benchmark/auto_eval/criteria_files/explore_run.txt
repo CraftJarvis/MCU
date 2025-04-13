@@ -1,0 +1,24 @@
+It seems like there might be a slight misunderstanding in the task description, as "explore_run.yaml" doesn't provide clear context on the specific task that needs to be evaluated. However, I will assume that the task involves exploring a designated area and running through it. Based on this assumption, I will generate the scoring points for this task.
+
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent successfully navigates the designated area.
+ - whether the agent visits all key locations within the area.
+ - whether the agent reaches the endpoint or goal of the exploration.
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. taking unnecessary detours, performing unrelated tasks like building or mining.
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes incorrect paths or dead ends and adjusts its course.
+ - whether the corrected results demonstrate improvement and reduce flaws in the exploration path.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. discovering shortcuts or alternate routes.
+ - e.g. identifying and utilizing advantageous terrain features.
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective exploration strategies were employed to minimize unnecessary repetitions or errors.
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - Not applicable for this task, unless specific materials are required for navigation or overcoming obstacles.

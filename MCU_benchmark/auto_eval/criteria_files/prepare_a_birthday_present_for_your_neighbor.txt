@@ -1,0 +1,23 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent gathers necessary materials for the present
+ - whether the agent crafts a present (e.g., cake, crafted item)
+ - whether the agent delivers the present to the neighbor's location
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. collecting unrelated materials, crafting unrelated items, wandering aimlessly
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes incorrect crafting recipes and corrects them
+ - whether the agent identifies and replaces inappropriate materials for the present
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. creating a personalized card or message along with the present
+ - e.g. designing unique wrapping or packaging for the present
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials** 
+ - whether the agent selects appropriate materials for crafting the present
+ - whether the agent effectively uses the materials without wastage

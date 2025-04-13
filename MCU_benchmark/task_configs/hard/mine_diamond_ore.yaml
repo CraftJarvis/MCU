@@ -1,0 +1,30 @@
+custom_init_commands:
+- /give @p minecraft:iron_pickaxe
+- /execute as @p at @s run fill ~5 ~-2 ~4 ~6 ~-1 ~5 minecraft:diamond_ore
+- /give @s minecraft:wooden_pickaxe 1
+- /weather thunder
+- /effect give @a blindness 300 1 true
+- /give @p minecraft:stone 64
+- /give @p minecraft:granite 64
+- /give @p minecraft:diorite 64
+- /give @p minecraft:andesite 64
+- /give @p minecraft:coal 20
+- /give @p minecraft:iron_ore 20
+- /give @p minecraft:gold_ore 15
+- /give @p minecraft:redstone 10
+- /give @p minecraft:lapis_lazuli 10
+- /give @p minecraft:emerald 5
+- /give @p minecraft:quartz 8
+- /give @p minecraft:obsidian 10
+- /give @p minecraft:nether_brick 10
+- /give @p minecraft:glowstone_dust 10
+- /give @p minecraft:end_stone 5
+- /give @p minecraft:crying_obsidian 5
+- /give @p minecraft:amethyst_shard 5
+- /give @p minecraft:deepslate 20
+- /give @p minecraft:copper_ore 15
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:netherite_scrap 1
+text: mine diamond ore with an iron pickaxe
+thinking: '- In order to mine diamond ore, we need at least an iron pickaxe or a better
+  one, and have diamond ore nearby.'

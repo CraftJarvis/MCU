@@ -1,0 +1,23 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent locates the pigs
+ - whether the agent successfully engages with the pigs
+ - whether the agent successfully hunts and collects resources from the pigs
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. wandering aimlessly without focusing on hunting pigs
+ - e.g. attacking unrelated entities or breaking blocks unnecessarily
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent identifies when it misses a pig and adjusts its approach to successfully hunt
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using different methods or tools to hunt pigs
+ - e.g. employing strategies like luring pigs into a trap
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective hunting strategies were employed to minimize unnecessary movements or actions
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - e.g. using appropriate tools or weapons to hunt pigs effectively

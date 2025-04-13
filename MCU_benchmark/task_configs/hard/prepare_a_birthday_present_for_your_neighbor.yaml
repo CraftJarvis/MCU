@@ -1,0 +1,28 @@
+custom_init_commands:
+- /give @s minecraft:sugar 3
+- /give @s minecraft:wheat 3
+- /give @s minecraft:egg 1
+- /give @s minecraft:milk_bucket 1
+- /give @s minecraft:chest 2
+- /give @s minecraft:oak_log 4
+- /setblock ~2 ~ ~ minecraft:crafting_table
+- /give @s minecraft:cake
+- /give @s minecraft:diamond 64
+- /give @s minecraft:glowstone_dust 5
+- /give @s minecraft:golden_apple 2
+- /give @s minecraft:firework_rocket 10
+- /give @s minecraft:redstone 16
+- /give @s minecraft:pumpkin_seeds 8
+- /give @s minecraft:carrot 6
+- /give @s minecraft:potato 5
+- /give @s minecraft:saddle 1
+- /give @s minecraft:diamond_sword
+- /give @s minecraft:lapis_lazuli 12
+- /give @s minecraft:emerald 20
+- /give @s minecraft:iron_ingot 32
+- /give @s minecraft:nether_wart 10
+- /give @s minecraft:obsidian 6
+- /give @s minecraft:ender_pearl 4
+text: prepare a birthday present for your neighbor
+thinking: '- In order to prepare a birthday present for your neighbor, you may need
+  to craft a cake, store it in a chest, and have some decorative items ready.'

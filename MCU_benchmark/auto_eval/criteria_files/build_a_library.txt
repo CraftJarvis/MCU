@@ -1,0 +1,26 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent builds a structure with defined walls and a roof
+ - whether the agent includes bookshelves within the structure
+ - whether the agent creates an entrance (door) for access
+ - whether the agent provides interior lighting for visibility
+ - whether the agent includes seating and reading areas
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. unnecessary placement or removal of blocks not contributing to the library
+ - aimless movement or interactions not related to building or furnishing the library
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent identifies misaligned structures or misplaced bookshelves and corrects them
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. innovative architectural design of the library building
+ - e.g. unique interior decoration, such as themed reading sections or artistic lighting
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective construction strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - whether the agent selects appropriate materials for structural integrity and aesthetic appeal
+ - whether the agent effectively uses bookshelves and other interior elements to enhance the library's functionality and appearance

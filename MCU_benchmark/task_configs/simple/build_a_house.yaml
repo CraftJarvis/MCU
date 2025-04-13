@@ -1,0 +1,14 @@
+custom_init_commands:
+- /give @s minecraft:oak_planks 128
+- /give @s minecraft:cobblestone 128
+- /give @s minecraft:glass_pane 64
+- /give @s minecraft:oak_door 4
+- /give @s minecraft:torch 32
+- /give @s minecraft:blue_bed 1
+- /give @s minecraft:crafting_table 1
+- /give @s minecraft:flower_pot 3
+- /give @s minecraft:poppy 3
+text: build a basic house with essential features
+thinking: '- In order to build a house, we need various building materials such as
+  wood, stone, glass, and a crafting table to craft additional items if needed. It''s
+  also helpful to have a bed, torches for lighting, and a door for entry.'

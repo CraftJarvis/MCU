@@ -1,0 +1,8 @@
+custom_init_commands:
+- /summon minecraft:item_frame ~ ~ ~-3
+- /give @p minecraft:torch 10
+- /summon minecraft:villager ~2 ~ ~
+- /give @p minecraft:blue_bed
+text: find an oak door
+thinking: '- In order to find an oak door, we need to ensure there is an oak door
+  nearby.'

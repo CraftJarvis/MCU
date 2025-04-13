@@ -1,0 +1,23 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent interacts with the boat
+ - whether the agent places the boat near the spider
+ - whether the agent attempts to attract the spider
+ - whether the spider is successfully trapped in the boat 
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. incorrect operation causes the agent itself to be attacked by the spider
+ - unnecessary placement of additional boats far from the spider
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether the agent recognizes ineffective boat placement and adjusts accordingly
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. trying different methods to lure the spider, such as using items or terrain manipulation
+ - using defensive strategies to protect itself from the spider
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range
+ - whether effective strategies were employed to minimize unnecessary repetitions or errors
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**

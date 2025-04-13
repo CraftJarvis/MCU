@@ -1,0 +1,23 @@
+custom_init_commands:
+- /give @s minecraft:stone 4
+- /give @s minecraft:iron_ingot 1
+- /give @s minecraft:crafting_table 1
+- /give @s minecraft:beef 10
+- /give @s minecraft:bone 5
+- /give @s minecraft:bread 8
+- /give @s minecraft:brick 6
+- /give @s minecraft:carrot 4
+- /give @s minecraft:clay_ball 12
+- /give @s minecraft:coal 10
+- /give @s minecraft:cobblestone 15
+- /give @s minecraft:cookie 6
+- /give @s minecraft:diamond 2
+- /give @s minecraft:emerald 3
+- /give @s minecraft:feather 7
+- /give @s minecraft:flint 4
+- /give @s minecraft:gold_nugget 9
+- /give @s minecraft:iron_nugget 7
+- /give @s minecraft:leather 5
+text: craft a stone cutter
+thinking: '- In order to craft a stone cutter, you need at least 3 stones and 1 iron
+  ingot. A crafting table is also necessary for the task.'

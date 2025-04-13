@@ -1,0 +1,31 @@
+custom_init_commands:
+- /setblock ~2 ~ ~ minecraft:chest
+- /give @s minecraft:torch 20
+- /give @s minecraft:iron_pickaxe
+- /summon minecraft:zombie ~5 ~ ~
+- /summon minecraft:spider ~7 ~ ~
+- /give @p minecraft:acacia_boat 1
+- /give @p minecraft:apple 3
+- /give @p minecraft:arrow 5
+- /give @p minecraft:beetroot 2
+- /give @p minecraft:bell 1
+- /give @p minecraft:birch_planks 6
+- /give @p minecraft:book 2
+- /give @p minecraft:brewing_stand 1
+- /give @p minecraft:cake 1
+- /give @p minecraft:charcoal 10
+- /give @p minecraft:compass 1
+- /give @p minecraft:cooked_beef 5
+- /give @p minecraft:diamond 3
+- /give @p minecraft:emerald 2
+- /give @p minecraft:ender_pearl 2
+- /give @p minecraft:firework_rocket 3
+- /give @p minecraft:flint_and_steel 1
+- /give @p minecraft:golden_apple 1
+- /give @p minecraft:iron_ingot 10
+- /give @p minecraft:jungle_boat 1
+- /give @p minecraft:oak_planks 4
+text: explore the contents of a chest
+thinking: '- In order to explore a chest, we need to have a chest nearby and a tool
+  to open it. Additionally, having some light sources like torches can be helpful
+  in case the area is dark.'

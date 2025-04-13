@@ -1,0 +1,28 @@
+custom_init_commands:
+- /give @s minecraft:iron_shovel 1
+- /give @s minecraft:dirt 5
+- /effect give @a night_vision 99999 250 true
+- /give @p minecraft:acacia_fence 10
+- /give @p minecraft:anvil 1
+- /give @p minecraft:apple 3
+- /give @p minecraft:bamboo 5
+- /give @p minecraft:barrel 2
+- /give @p minecraft:beetroot 4
+- /give @p minecraft:blaze_rod 3
+- /give @p minecraft:bread 6
+- /give @p minecraft:brick 8
+- /give @p minecraft:bucket 1
+- /give @p minecraft:cauldron 1
+- /give @p minecraft:chicken 2
+- /give @p minecraft:coal 5
+- /give @p minecraft:cobblestone 10
+- /give @p minecraft:cooked_cod 3
+- /give @p minecraft:diamond 2
+- /give @p minecraft:emerald 3
+- /give @p minecraft:ender_pearl 1
+- /give @p minecraft:egg 5
+- /give @p minecraft:fire_charge 3
+- /give @p minecraft:golden_apple 2
+text: dig three blocks down and fill one block up
+thinking: '- In order to dig three blocks down and fill one of them up, you need an
+  iron shovel and some dirt blocks.'

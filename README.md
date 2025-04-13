@@ -10,16 +10,18 @@
 
 ## 🧠 Benchmark Highlights
 
-- 🧩 **Diverse Domains**: 80 atomic tasks across **combat**, **crafting**, **mining**, **creative building**, and more.
+- 🧩 **Diverse Domains**: 80 atomic tasks and 10 compositional tasks across **combat**, **crafting**, **mining**, **creative building**, and more.
 - 🔄 **Dual Difficulty**: Each task runs in both **simple** and **hard** versions to evaluate **intra-task generalization**.
-- 🎯 **VLM-based Evaluation**: A vision-language model analyzes video trajectories using multi-dimensional criteria.
 - 📦 **Agent-Agnostic**: Compatible with [MineStudio](https://github.com/CraftJarvis/MineStudio) agents or any API-based Minecraft wrapper.
+- 🎯 **VLM-based Evaluation**: A vision-language model analyzes video trajectories using multi-dimensional criteria.
 
 ---
 
 ## 🧪 Task Overview
 
 Below is a curated subset of tasks from the full set of 80, organized by category. Tasks marked with 🌕 and 🌑 indicate presence in both simple and hard modes.
+
+> 📂 *All tasks include executable task configs in* `/MCU/MCU_benchmark/task_configs`.
 
 
 ### ⚔️ Combat
@@ -92,9 +94,6 @@ Below is a curated subset of tasks from the full set of 80, organized by categor
 | Task | Description |
 |------|-------------|
 | `prepare_a_birthday_present_for_your_neighbor` 🌕🌑 | prepare a birthday present for your neighbor |
-| `dig_three_down_and_fill_one_up` 🌕🌑 | dig three blocks down and fill one block up |
-| `build_a_garden` 🌕🌑 | build a garden using various blocks |
-| `build_a_maze` 🌕🌑 | construct a simple maze using stone blocks |
 
 ---
 
@@ -112,6 +111,9 @@ Below is a curated subset of tasks from the full set of 80, organized by categor
 | `build_a_tower` 🌕🌑 | build a tower using available materials |
 | `build_a_waterfall` 🌕🌑 | build a waterfall using water buckets and stone |
 | `build_a_library` 🌕🌑 | build a library using bookshelves and wood planks |
+| `dig_three_down_and_fill_one_up` 🌕🌑 | dig three blocks down and fill one block up |
+| `build_a_garden` 🌕🌑 | build a garden using various blocks |
+| `build_a_maze` 🌕🌑 | construct a simple maze using stone blocks |
 
 ---
 
@@ -125,6 +127,17 @@ Below is a curated subset of tasks from the full set of 80, organized by categor
 | `decorate_the_wall` 🌕🌑 | decorate a wall using various decorations |
 | `light_up_the_surroundings` 🌕🌑 | light up the surroundings |
 | `place_a_item_frame` 🌕🌑 | place an item frame on a block |
+
+---
+
+### 🌀 Motion
+
+| Task | Description |
+|------|-------------|
+| `look_at_the_sky` 🌕🌑 | look at the sky |
+| `drop_an_item` 🌕🌑 | drop an item from your inventory |
+| `stacking_acacia_fence` 🌕🌑 | stack acacia fences |
+| `throw_a_snowball` 🌕🌑 | throw a snowball |
 
 ---
 
@@ -178,30 +191,41 @@ cd MCU
 
 2. Install dependencies:
 
+
 ```bash
-conda create -n mcux python=3.12
-conda activate mcux
-pip install -r requirements.txt
+conda create -n mcu python=3.10 -y
+conda activate mcu
+conda install --channel=conda-forge openjdk=8 -y
+pip install MineStudio
 ```
 
 ---
 
 ## 🧪 Evaluation
 
-Run a task:
+Run tasks:
 
 ```bash
+cd MCU_benchmark
 python run_task.py \
-  --task_name craft_to_cake \
-  --difficulty simple \
-  --agent_path ./agents/groot
+  --difficulty simple 
 ```
 
-Evaluation results are automatically saved in `results/`.
+Evaluation video are automatically saved in `output/`.
+
+VLM evaluation:
+
+```bash
+cd auto_eval
+python batch_video_rating.py \
+  --videos_path='./output/' \
+  --criteria_files_path='./auto_eval/criteria_files/' 
+```
+
+
 
 ---
 
 ## 📤 Contribute
 
 You can contribute new tasks or difficulty configurations. Submit PRs or open issues to discuss!
-

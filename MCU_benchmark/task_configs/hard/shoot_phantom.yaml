@@ -1,0 +1,29 @@
+custom_init_commands:
+- /give @p minecraft:bow
+- /give @p minecraft:arrow 20
+- /summon minecraft:phantom ~5 ~ ~
+- /summon minecraft:phantom ~8 ~ ~2
+- /summon minecraft:phantom ~10 ~ ~-3
+- /effect give @a minecraft:slowness 99999 1 true
+- /give @p minecraft:stone_sword
+- /give @p minecraft:leather_helmet
+- /give @p minecraft:leather_chestplate
+- /give @p minecraft:leather_leggings
+- /give @p minecraft:leather_boots
+- /give @p minecraft:torch 10
+- /give @p minecraft:oak_log 5
+- /give @p minecraft:stick 10
+- /give @p minecraft:iron_ingot 5
+- /give @p minecraft:gold_nugget 15
+- /give @p minecraft:redstone 10
+- /give @p minecraft:lapis_lazuli 5
+- /give @p minecraft:iron_sword
+- /give @p minecraft:bread 10
+- /give @p minecraft:water_bucket
+- /give @p minecraft:apple 5
+- /give @p minecraft:feather 5
+- /give @p minecraft:leather 5
+- /time set night
+text: shoot phantoms with a bow and arrows
+thinking: '- In order to shoot a phantom, we need a bow, arrows, and phantoms nearby.
+  Phantoms only appear at night when the player hasn''t slept for a few days.'

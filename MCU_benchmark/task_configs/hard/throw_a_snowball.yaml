@@ -1,0 +1,24 @@
+custom_init_commands:
+- /give @p minecraft:apple 10
+- /give @p minecraft:snowball 1
+- /give @p minecraft:arrow 15
+- /give @p minecraft:baked_potato 5
+- /give @p minecraft:blaze_rod 3
+- /give @p minecraft:bone 8
+- /give @p minecraft:bookshelf 2
+- /give @p minecraft:bread 4
+- /give @p minecraft:brick 6
+- /give @p minecraft:brown_mushroom 7
+- /give @p minecraft:bucket 1
+- /give @p minecraft:carrot 2
+- /give @p minecraft:charcoal 5
+- /give @p minecraft:chicken 3
+- /give @p minecraft:clay_ball 4
+- /give @p minecraft:coal 10
+- /give @p minecraft:cobblestone 20
+- /give @p minecraft:cooked_beef 3
+- /give @p minecraft:cooked_chicken 2
+- /give @p minecraft:diamond 1
+text: throw a snowball
+thinking: '- In order to throw a snowball, you need at least one snowball in your
+  inventory.'

@@ -1,0 +1,27 @@
+custom_init_commands:
+- /execute as @p at @s run fill ~2 ~-1 ~3 ~1 ~-1 ~4 obsidian
+- /weather thunder
+- /give @p minecraft:oak_log 10
+- /give @p minecraft:birch_log 8
+- /give @p minecraft:stone 16
+- /give @s minecraft:diamond_pickaxe
+- /give @p minecraft:dirt 12
+- /give @p minecraft:gravel 14
+- /give @p minecraft:sand 10
+- /give @p minecraft:clay_ball 6
+- /give @p minecraft:iron_ore 4
+- /give @p minecraft:gold_ore 2
+- /give @p minecraft:coal 20
+- /give @p minecraft:redstone 15
+- /give @p minecraft:lapis_lazuli 12
+- /give @p minecraft:emerald 3
+- /give @p minecraft:diamond 5
+- /give @p minecraft:nether_wart 7
+- /give @p minecraft:blaze_rod 2
+- /give @p minecraft:end_stone 9
+- /give @p minecraft:glowstone 4
+- /give @p minecraft:quartz 11
+- /give @p minecraft:flint_and_steel 1
+text: mine obsidian with a diamond pickaxe
+thinking: '- In order to mine obsidian, we need at least a diamond pickaxe, and have
+  obsidian nearby. Poor visibility can be created with weather conditions.'

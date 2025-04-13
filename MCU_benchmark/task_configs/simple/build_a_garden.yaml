@@ -1,0 +1,16 @@
+custom_init_commands:
+- /give @s minecraft:grass_block 64
+- /give @s minecraft:oak_fence 64
+- /give @s minecraft:oak_sapling 10
+- /give @s minecraft:poppy 10
+- /give @s minecraft:dandelion 10
+- /give @s minecraft:blue_orchid 10
+- /give @s minecraft:lilac 10
+- /give @s minecraft:rose_bush 10
+- /give @s minecraft:flower_pot 20
+- /give @s minecraft:water_bucket 5
+- /give @s minecraft:torch 20
+text: create a decorative garden with various plants and flowers
+thinking: '- In order to build a garden, we need various plants, flowers, and decorative
+  items. We can also use materials like grass blocks, fences, and pathways to enhance
+  the garden''s appearance.'

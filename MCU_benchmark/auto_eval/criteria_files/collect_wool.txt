@@ -1,0 +1,23 @@
+**Task Progress: the key factors/steps for completing the task** 
+ - whether the agent locates and identifies sheep
+ - whether the agent successfully shears the sheep to collect wool
+ - whether the agent collects a sufficient amount of wool
+
+**Action Control: whether the agents have unrelated operations of the task, including useless actions and redundancy actions**
+ - e.g. attacking sheep instead of shearing them
+ - wandering aimlessly without interacting with sheep
+
+**Error Recognition and Correction: whether the agent can promptly identify and rectify its mistakes**
+ - e.g. whether agents recognize incorrect tool usage (e.g., using a sword instead of shears) and switch to the correct tool
+ - whether the corrected results demonstrate improvement and reduce flaws in the final product.
+
+**Creative Attempts: any creative attempts exhibited by the agent during doing task**
+ - e.g. using dyes to color wool before collecting
+ - e.g. building a temporary pen to gather sheep for easier shearing
+
+**Task Completion Efficiency**
+ - whether the time taken by the agent to complete the task falls within a reasonable range.
+ - whether effective strategies were employed to locate and shear sheep quickly
+
+**Material Selection and Usage: whether the agent correctly utilize the given materials**
+ - e.g. whether the agent uses shears instead of other tools to collect wool

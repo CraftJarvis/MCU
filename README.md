@@ -1,7 +1,7 @@
 
-# ⛏️ MCU: A Benchmark for Evaluating Minecraft Agent
+# ⛏️ MCU-turbo: A Standard Benchmark for Evaluating Minecraft Agents
 
-**MCU** is an extended benchmark based on the [MCU framework](https://github.com/grandsmile/MCU/tree/master/figs/mcu.png), featuring **80 handcrafted atomic tasks** across 10 categories. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
+**MCU** is a standard benchmark based on the [MCU framework](https://github.com/grandsmile/MCU/tree/master/figs/mcu.png), which originally features over 3000+ atomic tasks. This benchmark is designed to be a standard test, selecting **80 handcrafted atomic tasks** across 10 categories. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
 
 > 🔍 Simple mode: Tasks begin with sufficient necessary resources pre-supplied and a clear environment.  
 > 🌪️ Hard mode: Agents face **limited resources** and **disruptive factors** such as poor visibility (e.g. bad weather, night-time), extra distractors (e.g., swarms of mobs, scattered items). 
@@ -10,7 +10,7 @@
 
 ## 🧠 Benchmark Highlights
 
-- 🧩 **Diverse Domains**: 80 atomic tasks and 10 compositional tasks across **combat**, **crafting**, **mining**, **creative building**, and more.
+- 🧩 **Diverse Domains**: 80 atomic tasks and 20 compositional tasks across **combat**, **crafting**, **mining**, **creative building**, and more.
 - 🔄 **Dual Difficulty**: Each task runs in both **simple** and **hard** versions to evaluate **intra-task generalization**.
 - 📦 **Agent-Agnostic**: Compatible with [MineStudio](https://github.com/CraftJarvis/MineStudio) agents or any API-based Minecraft wrapper.
 - 🎯 **VLM-based Evaluation**: A vision-language model analyzes video trajectories using multi-dimensional criteria.

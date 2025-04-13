@@ -1,0 +1,10 @@
+{
+    "Task Progress": "0",
+    "Action Control": "1",
+    "Error Recognition and Correction": "0",
+    "Creative Attempts": "0",
+    "Task Completion Efficiency": "0",
+    "Material Selection and Usage": "1",
+    "video_path": "/nfs-shared-2//vpt_rl/find bedrock/episode_1.mp4",
+    "task_name": "find_bedrock"
+}

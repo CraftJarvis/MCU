@@ -22,6 +22,7 @@
 Below is a curated subset of tasks from the full set of 80, organized by category. Tasks marked with 🌕 and 🌑 indicate presence in both simple and hard modes.
 
 > 📂 *All tasks include executable task configs in* `/MCU/MCU_benchmark/task_configs`.
+> 📊 The analysis of our baseline results can be found in `/MCU/docs/baseline.md`.
 
 
 ### ⚔️ Combat

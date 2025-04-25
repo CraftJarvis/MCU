@@ -4,34 +4,28 @@
 The agents show lower performance in creative attempts and Error recognition compared to other dimensions.
 
 | Agent Name | Task Progress | Action Control | Error Recognition | Creative Attempts | Task Efficiency | Material Usage |
-|------------|---------------|----------------|----------------------------------|-------------------|-----------------|------------------------------|
-| steve-1    | 28.3%         | 25.3%          | 9.5%                             | 5.5%              | 20.7%           | 33.6%                        |
-| vpt-bc     | 25.6%         | 23.4%          | 8.9%                             | 5.8%              | 18.5%           | 31.4%                        |
-| vpt-rl     | 22.5%         | 21.7%          | 6.5%                             | 4.9%              | 16.4%           | 28.4%                        |
+|------------|---------------|----------------|-------------------|-------------------|-----------------|----------------|
+| steve-1    | 31.4%         | 31.9%          | 13.1%             | 6.4%              | 23.2%           | 35.6%          |
+| vpt-bc     | 29.1%         | 29.0%          | 11.8%             | 6.2%              | 21.3%           | 33.8%          |
+| vpt-rl     | 25.9%         | 26.2%          | 8.8%              | 5.2%              | 18.9%           | 31.3%          |
+| jarvis-vla | 25.6%         | 27.8%          | 9.3%              | 5.5%              | 18.3%           | 30.5%          |
 
 ## Performance Degradation in Hard Mode
 In hard mode, agents are more easily distracted, leading to performance degradation.
 
-| Agent Name | Task Progress | Action Control | Error Recognition | Creative Attempts | Task Efficiency | Material Usage |
-|------------|---------------|----------------|----------------------------------|-------------------|-----------------|------------------------------|
-| steve-1    | 23.1%         | 22.6%          | 6.9%                             | 6.0%              | 16.6%           | 24.5%                        |
-| vpt-bc     | 23.0%         | 21.7%          | 6.2%                             | 6.0%              | 15.6%           | 25.0%                        |
-| vpt-rl     | 21.0%         | 20.9%          | 5.0%                             | 4.6%              | 14.4%           | 23.7%                        |
+| Agent Name | Task Progress | Action Control | Error Recognition | Creative Attempts | Task Efficiency | Material Usage | 
+| --- | --- | --- | --- | --- | --- | --- | 
+| steve-1 | 23.1% | 22.6% | 6.9% | 6.0% | 16.6% | 24.5% | 
+| vpt-bc | 23.0% | 21.7% | 6.2% | 6.0% | 15.6% | 25.0% | 
+| vpt-rl | 21.0% | 20.9% | 5.0% | 4.6% | 14.4% | 23.7% | 
+| jarvis-vla | 20.9% | 22.3% | 5.5% | 4.3% | 14.5% | 22.3% | 
+
 
 ## Comparison of Creative Task and Programmatic Task
-Creative tasks show lower performance than programmatic tasks. For example, steve-1 scores 16.9% in creative tasks compared to 45.4% in programmatic tasks.
+Creative tasks show lower performance than programmatic tasks. For example, Steve-1 suffers a severe performance degradation of task progress, with a decline of 15.8% in creative tasks.
 
 | Task Type      | Task Progress | Action Control | Error Recognition | Creative Attempts | Task Efficiency | Material Usage |
 |----------------|---------------|----------------|----------------------------------|-------------------|-----------------|------------------------------|
-| Creative Task  | 16.9%         | 18.9%          | 6.4%                             | 2.8%              | 11.9%           | 21.4%                        |
-| Programmatic Task | 45.4%        | 35.0%          | 14.2%                            | 9.6%              | 33.8%           | 53.6%                        |
-| All Task Averages | 28.3%        | 25.3%          | 9.5%                             | 5.5%              | 20.7%           | 33.6%                        |
-
-## Performance on Common Tasks vs. Expanded Task Set
-When the task set expands from 30 common tasks (in MCU paper) to 80 tasks, the average performance of agents decreases.
-
-| Agent Name | 30 Common Tasks | 80 Standard Tasks |
-|------------|----------------------------------------|--------------------------------------------------|
-| vpt-bc     | 21.9%                                  | 16.7%                                            |
-| vpt-rl     | 22.9%                                  | 18.9%                                            |
-| steve-1    | 27.7%                                  | 20.4%                                            |
+| Programmatic Task | 38.4%        | 36.5%          | 16.3%                            | 7.7%              | 27.7%           | 43.8%                        |
+| Creative Task  | 22.6%         | 26.2%          | 9.1%                             | 4.7%              | 17.7%           | 25.4%                        |
+| Performance Drop | -15.8% | -10.3% | -7.2% | -3.0% | -10.0% | -18.4% |

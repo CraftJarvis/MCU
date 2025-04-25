@@ -17,6 +17,50 @@
 
 ---
 
+## 🛠️ Environment Setup
+
+1. Clone this repo:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/MCU.git
+cd MCU
+```
+
+2. Install dependencies:
+
+
+```bash
+conda create -n mcu python=3.10 -y
+conda activate mcu
+conda install --channel=conda-forge openjdk=8 -y
+pip install MineStudio
+```
+
+---
+
+## 🧪 Evaluation
+
+Run tasks:
+
+```bash
+cd MCU_benchmark
+python run_task.py \
+  --difficulty simple 
+```
+
+Evaluation video are automatically saved in `output/`.
+
+VLM evaluation:
+
+```bash
+cd auto_eval
+python batch_video_rating.py \
+  --videos_path='./output/' \
+  --criteria_files_path='./auto_eval/criteria_files/' 
+```
+
+---
+
 ## 🧪 Task Overview
 
 Below is a curated subset of tasks from the full set of 80, organized by category. Tasks marked with 🌕 and 🌑 indicate presence in both simple and hard modes.
@@ -178,52 +222,6 @@ Below is a curated subset of tasks from the full set of 80, organized by categor
 | `trap_a_witch` 🌕🌑 | trap a witch with a boat |
 | `hook_a_chicken` 🌕🌑 | hook a chicken using a fishing rod |
 | `hook_a_cow` 🌕🌑 | hook a cow using a fishing rod |
-
----
-
-## 🛠️ Environment Setup
-
-1. Clone this repo:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/MCU.git
-cd MCU
-```
-
-2. Install dependencies:
-
-
-```bash
-conda create -n mcu python=3.10 -y
-conda activate mcu
-conda install --channel=conda-forge openjdk=8 -y
-pip install MineStudio
-```
-
----
-
-## 🧪 Evaluation
-
-Run tasks:
-
-```bash
-cd MCU_benchmark
-python run_task.py \
-  --difficulty simple 
-```
-
-Evaluation video are automatically saved in `output/`.
-
-VLM evaluation:
-
-```bash
-cd auto_eval
-python batch_video_rating.py \
-  --videos_path='./output/' \
-  --criteria_files_path='./auto_eval/criteria_files/' 
-```
-
-
 
 ---
 

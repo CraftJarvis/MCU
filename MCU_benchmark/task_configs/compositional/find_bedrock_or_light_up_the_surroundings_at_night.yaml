@@ -1,8 +1,0 @@
-custom_init_commands:
-- /setblock ~ ~ ~1 minecraft:bedrock
-- /give @s minecraft:iron_pickaxe
-- /summon minecraft:bat ~3 ~ ~3
-- /time set night
-- /give @s minecraft:torch 64
-- /give @s minecraft:glowstone 10
-text: find_bedrock_or_light_up_the_surroundings_at_night

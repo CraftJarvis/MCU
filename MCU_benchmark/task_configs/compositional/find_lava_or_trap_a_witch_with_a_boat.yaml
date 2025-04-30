@@ -1,8 +1,0 @@
-custom_init_commands:
-- /execute as @p at @s run fill ~2 ~-1 ~2 ~4 ~-1 ~4 minecraft:lava
-- /give @p minecraft:bucket
-- /summon minecraft:witch ~3 ~ ~3
-- /give @s minecraft:oak_boat 2
-- /replaceitem entity @s weapon.mainhand minecraft:oak_boat
-- /time set midnight
-text: find_lava_or_trap_a_witch_with_a_boat

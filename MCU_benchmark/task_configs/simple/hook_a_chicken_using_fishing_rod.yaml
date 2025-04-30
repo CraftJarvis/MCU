@@ -1,9 +1,0 @@
-custom_init_commands:
-- /replaceitem entity @s weapon.mainhand minecraft:fishing_rod
-- /give @s minecraft:fishing_rod 2
-- /summon minecraft:chicken ~1 ~ ~-1
-- /summon minecraft:chicken ~-2 ~ ~2
-- /give @s minecraft:seeds 10
-text: hook a chicken with a fishing rod
-thinking: '- In order to hook a chicken using a fishing rod, we need a fishing rod
-  and a chicken nearby.'

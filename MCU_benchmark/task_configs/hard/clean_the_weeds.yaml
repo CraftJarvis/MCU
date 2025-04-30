@@ -1,8 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:stone_hoe
-- /fill ~2 ~ ~2 ~4 ~1 ~4 minecraft:tall_grass
-- /fill ~-3 ~ ~-3 ~-2 ~1 ~-2 minecraft:grass
-- /weather rain
-text: clean the weeds using a hoe
-thinking: '- In order to clean the weeds, we need a tool like a hoe to break the grass
-  and tall grass blocks nearby.'

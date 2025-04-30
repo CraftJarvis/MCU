@@ -1,8 +1,0 @@
-custom_init_commands:
-- /summon minecraft:witch ~3 ~ ~3
-- /give @s minecraft:oak_boat 2
-- /replaceitem entity @s weapon.mainhand minecraft:oak_boat
-- /time set midnight
-text: trap a witch using a boat
-thinking: '- In order to trap a witch with a boat, we need to have a boat and a witch
-  summoned nearby.'

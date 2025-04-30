@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU:An Evaluation Framework for Open-Ended Game Agents</title>
+    <link rel="stylesheet" href="static/css/leaderboard.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/nav.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+</head>
+
+<body>
+
+<div id="home" style="position: absolute; top: 0;"></div>
+
+<div id="title">
+    <div id="title-wrapper">
+        <h1 id="title-text" class="text-center">MCU: An Evaluation Framework for Open-Ended Game Agents</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <ul class="list-inline">
+            <br>
+            <li><a href="" target="_blank">Xinyue Zheng<sup>*</sup></a></li>
+            <li><a href="" target="_blank">Haowei Lin<sup>*</sup></a></li>
+            <li><a href="" target="_blank">Kaichen He</a></li>
+            <li><a href="https://zhwang4ai.github.io/" target="_blank">Zihao Wang</a></li>
+            <li><a href="" target="_blank">Zilong Zheng</a></li>
+            <li><a href="https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en" target="_blank">Yitao Liang</a></li>
+            </a>
+        </ul>
+    </div>
+</div>
+
+<div class="centered-nav">
+    <a class="nav-button" href="https://arxiv.org/pdf/2310.08367" class="ext-link" target="_blank">
+        <img src="static/img/icon/paper_icon.png" alt="Paper">
+    </a>
+    <a class="nav-button" href="https://github.com/CraftJarvis/MCU-turbo" class="ext-link" target="_blank">
+        <img src="static/img/icon/code_icon.png" alt="Code">
+    </a>
+</div>
+
+
+<div class="main-body">
+    <div class="section">
+        <h2>INTRODUCTION</h2>
+        <p style="line-height: 150%">
+            <b>MCU (Minecraft Universe)</b> is a comprehensive evaluation framework designed to benchmark AI agents in open-ended environments. Built on Minecraft, MCU enables systematic and scalable assessments through:
+            <ul>
+                <li>🧩 3,452+ atomic tasks across 11 major categories and 41 subcategories</li>
+                <li>🌍 Infinite compositional task generation via LLM-based dynamic configuration</li>
+                <li>🤖 AutoEval: multi-dimensional evaluation with 91.5% human agreement</li>
+                <li>🚀 Generalization-oriented challenges including spatial reasoning, control, creativity</li>
+            </ul>
+            <br>
+            Unlike traditional game benchmarks, MCU addresses both inter-task and intra-task diversity, reflecting real-world variations in environment conditions. It highlights critical challenges in control precision, knowledge usage, and adaptive behavior for modern foundation agents.
+        </p>
+    </div>
+
+
+    <!-- Example Tasks Section -->
+<div class="section">
+    <h2>Example Tasks</h2>
+    
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3>🌍 Artistic Creation & Knowledge Application</h3>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/build_nether_portal.mp4" width="320" height="180" controls></video>
+                <div><b>Build Nether Portal</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/build_snow_golem.mp4" width="320" height="180" controls></video>
+                <div><b>Build Snow Golem</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/build_waterfall.mp4" width="320" height="180" controls></video>
+                <div><b>Build Waterfall</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/exploring_world.mp4" width="320" height="180" controls></video>
+                <div><b>Explore World</b></div>
+            </div>
+        </div>
+
+        <h3>🧭 Environmental Interaction & Spatial Reasoning</h3>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/mine_diamond.mp4" width="320" height="180" controls></video>
+                <div><b>Mine Diamond</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/find_village.mp4" width="320" height="180" controls></video>
+                <div><b>Find Village</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/hunt_sheep.mp4" width="320" height="180" controls></video>
+                <div><b>Hunt Sheep</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/dig_3_fill_1.mp4" width="320" height="180" controls></video>
+                <div><b>Dig 3 blocks and Fill 1 block</b></div>
+            </div>
+        </div>
+
+        <h3>🎮 Precise Control & Execution</h3>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/craft_clock.mp4" width="320" height="180" controls></video>
+                <div><b>Craft Clock</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/make_fire.mp4" width="320" height="180" controls></video>
+                <div><b>Make Fire</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/make_obsidian.mp4" width="320" height="180" controls></video>
+                <div><b>Make Obsidian</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/combat_enderman.mp4" width="320" height="180" controls></video>
+                <div><b>Combat Enderman</b></div>
+            </div>
+        </div>
+
+        <h3>🎨 Diverse tools & Creative mind</h3>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/carve_pumpkin.mp4" width="320" height="180" controls></video>
+                <div><b>Carve Pumpkin</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/drinking_harming_portion.mp4" width="320" height="180" controls></video>
+                <div><b>Drink Harming Potion</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/prepare_birthday_gift_for_your_neighbor.mp4" width="320" height="180" controls></video>
+                <div><b>Prepare Birthday Gift</b></div>
+            </div>
+            <div style="margin: 10px; text-align: center;">
+                <video src="videos/dye&shear_sheep.mp4" width="320" height="180" controls></video>
+                <div><b>Dye & Shear Sheep</b></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section">
+    <h2>Benchmarking Process</h2>
+    <p style="line-height: 150%">
+        MCU framework consists of task generation and agent evaluation, ensuring scalable and high-quality benchmarking. For task generation, atomic tasks are sourced from the Minecraft Wiki, in-game data, existing benchmarks (MineDojo, SkillForge), and LLM-augmented brainstorming. An LLM-based config generator dynamically creates executable task setups, which are then verified through self-reflection.
+        For agent evaluation, trajectories are recorded as videos and analyzed by a VLM (GPT-4o), which assesses performance across six key dimensions (task progress, action control, material usage, efficiency, error recognition, and creativity). 
+        <br><br>
+        <div style="text-align: center;">
+        <div> </div><img src="images/source.png" alt="Source" style="width: 100%; max-width: 1200px;">
+    </p>
+</div>
+
+<!-- Experimental Results Section -->
+<div class="section">
+    <h2>Experimental Results</h2>
+    <p style="line-height: 150%">
+        In a large-scale evaluation of 90 atomic and 60 composite tasks, we observed that while foundation agents like GROOT, STEVE-I, and VPT-RL perform adequately on simple tasks, their success rates decrease drastically on more complex tasks or when faced with slight environment changes. For instance, in the “sleep in bed” task, moving the bed from outdoors to a furnished room caused GROOT to misidentify the bed or leave the area—indicating a lack of spatial understanding and generalization.
+        <br><br>
+    </p>
+
+    <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 20px;">
+        <div style="text-align: center;">
+            <video src="videos/sleep_in_bed_simple.mp4" width="500" height="325" controls></video>
+            <div><b>Simple: Outdoor Bed</b></div>
+        </div> 
+        <div style="text-align: center;">
+            <video src="videos/sleep_in_bed_hard.mp4" width="500" height="325" controls></video>
+            <div><b>Hard: Indoor Bed</b></div>
+        </div>
+    </div>
+
+    Moreover, in tasks requiring creativity and error recognition (e.g., construction or combat), agents lag significantly behind humans. They fail to adapt or revise strategies based on feedback—highlighting a key gap between current AI systems and human-level reasoning.
+    <br><br>
+
+    <div style="text-align: center;">
+        <img src="images/results.png" alt="Agent Performance Results" style="width: 100%; max-width: 1200px;">
+        <div>Left: Multi-dimensional capabilities; Middle: Performance degradation with increasing difficulty; Right: Human vs. AutoEval</div> 
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <img src="images/atomic_app.png" alt="Human-AI Score Agreement" style="width: 100%; max-width: 1200px;">
+        <div>Large-scale evaluation on 90 atomic tasks with AutoEval</div> 
+    </div>
+</div>

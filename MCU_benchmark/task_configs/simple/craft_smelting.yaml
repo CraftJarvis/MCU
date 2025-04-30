@@ -1,7 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:cobblestone 20
-- /give @s minecraft:crafting_table 1
-defaults:
-- base
-- _self_
-text: Craft a furnace for smelting items.

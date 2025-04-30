@@ -1,9 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:bow 1
-- /give @s minecraft:arrow 64
-- /summon minecraft:pig ~3 ~ ~
-- /summon minecraft:chicken ~4 ~ ~
-defaults:
-- base
-- _self_
-text: Use bow as your weapon.

@@ -1,6 +1,0 @@
-custom_init_commands:
-- /replaceitem entity @s weapon.mainhand minecraft:iron_pickaxe
-- /execute as @p at @s run fill ~ ~ ~ ~1 ~ ~ minecraft:diamond_ore
-- /give @s minecraft:wooden_shovel 1
-- /give @s minecraft:dirt 64
-text: mine_diamond_ore_and_collect_dirt

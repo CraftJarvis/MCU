@@ -1,7 +1,0 @@
-custom_init_commands:
-- /time set night
-- /give @s minecraft:torch 64
-- /give @s minecraft:glowstone 10
-text: light up the surroundings using torches at night
-thinking: '- In order to light up the surroundings at night, we need torches and set
-  the time to night.'

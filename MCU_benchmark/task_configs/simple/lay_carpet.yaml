@@ -1,8 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:wool 20
-- /give @s minecraft:crafting_table 1
-- /give @s minecraft:white_carpet
-- /give @s minecraft:red_dye 10
-text: lay a carpet using wool
-thinking: '- In order to lay a carpet, we need carpet items, which can be crafted
-  using wool. Therefore, we need wool blocks and a crafting table to craft the carpet.'

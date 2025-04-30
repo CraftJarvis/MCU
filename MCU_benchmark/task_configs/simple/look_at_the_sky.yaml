@@ -1,8 +1,0 @@
-custom_init_commands:
-- /weather clear
-- /time set noon
-- /give @s minecraft:compass
-- /give @s minecraft:spyglass
-text: look at the sky in a clear area
-thinking: '- In order to look at the sky, you simply need an open area with nothing
-  obstructing the view.'

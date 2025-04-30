@@ -1,6 +1,0 @@
-custom_init_commands:
-- /execute as @p at @s run fill ~2 ~ ~2 ~4 ~ ~4 minecraft:melon
-- /give @p minecraft:shears
-text: find a melon
-thinking: '- In order to find a melon, we need to make sure there are melon blocks
-  nearby. Melons can be found naturally in jungles or savanna villages.'

@@ -1,8 +1,0 @@
-custom_init_commands:
-- /give @s minecraft:iron_sword
-- /summon minecraft:pig ~2 ~ ~3
-- /summon minecraft:pig ~-2 ~ ~-3
-- /give @s minecraft:cooked_porkchop 5
-text: hunt pigs with an iron sword
-thinking: '- In order to hunt pigs, we need weapons and have pigs nearby. A suitable
-  weapon like an iron sword can swiftly hunt pigs.'

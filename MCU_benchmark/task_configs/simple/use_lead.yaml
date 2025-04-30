@@ -1,8 +1,0 @@
-custom_init_commands:
-- /give @p minecraft:lead
-- /summon minecraft:pig ~3 ~ ~
-- /summon minecraft:chicken ~4 ~ ~
-defaults:
-- base
-- _self_
-text: Use lead to get animals

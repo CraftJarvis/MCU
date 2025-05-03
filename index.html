@@ -12,57 +12,59 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
 </head>
-
 <body>
+    <!-- MCU Title -->
+    <div id="home" style="position: relative; top: 0; width: 100%; text-align: center;">
+        <div id="title">
+            <div id="title-wrapper">
+                <h1 id="title-text" class="text-center">MCU: An Evaluation Framework for Open-Ended Game Agents</h1>
+            </div>
+        </div>
 
-<div id="home" style="position: absolute; top: 0;"></div>
+        <!-- Author List -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline" style="display: inline-block; margin: auto;">
+                    <li style="display: inline-block; margin-right: 10px;"><a href="" target="_blank">Xinyue Zheng<sup>*</sup></a></li>
+                    <li style="display: inline-block; margin-right: 10px;"><a href="" target="_blank">Haowei Lin<sup>*</sup></a></li>
+                    <li style="display: inline-block; margin-right: 10px;"><a href="" target="_blank">Kaichen He<sup>*</sup></a></li>
+                    <li style="display: inline-block; margin-right: 10px;"><a href="" target="_blank">Zihao Wang</a></li>
+                    <li style="display: inline-block; margin-right: 10px;"><a href="" target="_blank">Zilong Zheng</a></li>
+                    <li style="display: inline-block; margin-right: 10px;"><a href="https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en" target="_blank">Yitao Liang</a></li>
+                </ul>
+            </div>
+        </div>
 
-<div id="title">
-    <div id="title-wrapper">
-        <h1 id="title-text" class="text-center">MCU: An Evaluation Framework for Open-Ended Game Agents</h1>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-12 text-center">
-        <ul class="list-inline">
-            <br>
-            <li><a href="" target="_blank">Xinyue Zheng<sup>*</sup></a></li>
-            <li><a href="" target="_blank">Haowei Lin<sup>*</sup></a></li>
-            <li><a href="" target="_blank">Kaichen He</a></li>
-            <li><a href="https://zhwang4ai.github.io/" target="_blank">Zihao Wang</a></li>
-            <li><a href="" target="_blank">Zilong Zheng</a></li>
-            <li><a href="https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en" target="_blank">Yitao Liang</a></li>
+        <!-- Paper and Code Links -->
+        <div class="centered-nav" style="text-align: center; margin-top: 10px;">
+            <a class="nav-button" href="https://arxiv.org/pdf/2310.08367" target="_blank">
+                <img src="static/img/icon/paper_icon.png" alt="Paper" style="vertical-align: middle;">
             </a>
-        </ul>
+            <a class="nav-button" href="https://github.com/CraftJarvis/MCU-turbo" target="_blank">
+                <img src="static/img/icon/code_icon.png" alt="Code" style="vertical-align: middle;">
+            </a>
+        </div>
     </div>
-</div>
 
-<div class="centered-nav">
-    <a class="nav-button" href="https://arxiv.org/pdf/2310.08367" class="ext-link" target="_blank">
-        <img src="static/img/icon/paper_icon.png" alt="Paper">
-    </a>
-    <a class="nav-button" href="https://github.com/CraftJarvis/MCU-turbo" class="ext-link" target="_blank">
-        <img src="static/img/icon/code_icon.png" alt="Code">
-    </a>
-</div>
-
-
-<div class="main-body">
-    <div class="section">
-        <h2>INTRODUCTION</h2>
-        <p style="line-height: 150%">
-            <b>MCU (Minecraft Universe)</b> is a comprehensive evaluation framework designed to benchmark AI agents in open-ended environments. Built on Minecraft, MCU enables systematic and scalable assessments through:
-            <ul>
-                <li>🧩 3,452+ atomic tasks across 11 major categories and 41 subcategories</li>
-                <li>🌍 Infinite compositional task generation via LLM-based dynamic configuration</li>
-                <li>🤖 AutoEval: multi-dimensional evaluation with 91.5% human agreement</li>
-                <li>🚀 Generalization-oriented challenges including spatial reasoning, control, creativity</li>
-            </ul>
-            <br>
-            Unlike traditional game benchmarks, MCU addresses both inter-task and intra-task diversity, reflecting real-world variations in environment conditions. It highlights critical challenges in control precision, knowledge usage, and adaptive behavior for modern foundation agents.
-        </p>
+    <!-- Main Content -->
+    <div class="main-body">
+        <div class="section">
+            <h2>INTRODUCTION</h2>
+            <p style="line-height: 150%">
+                <b>MCU (Minecraft Universe)</b> is a comprehensive evaluation framework designed to benchmark AI agents in open-ended environments. Built on Minecraft, MCU enables systematic and scalable assessments through:
+                <ul>
+                    <li>🧩 3,452+ atomic tasks across 11 major categories and 41 subcategories</li>
+                    <li>🌍 Infinite compositional task generation via LLM-based dynamic configuration</li>
+                    <li>🤖 AutoEval: multi-dimensional evaluation with 91.5% human agreement</li>
+                    <li>🚀 Generalization-oriented challenges including spatial reasoning, control, creativity</li>
+                </ul>
+                <br>
+                Unlike traditional game benchmarks, MCU addresses both inter-task and intra-task diversity, reflecting real-world variations in environment conditions. It highlights critical challenges in control precision, knowledge usage, and adaptive behavior for modern foundation agents.
+            </p>
+        </div>
     </div>
+</body>
+
 
 
     <!-- Example Tasks Section -->

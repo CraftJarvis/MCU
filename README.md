@@ -1,7 +1,19 @@
 
 # ⛏️ MCU-turbo: A Standard Benchmark for Evaluating Minecraft Agents
 
-**MCU-turbo** is a standard benchmark based on the ![MCU framework](https://github.com/grandsmile/MCU/tree/master/figs/mcu.png), which originally features over 3000+ atomic tasks. This benchmark is designed to be a standard test, selecting **80 handcrafted atomic tasks** across 10 categories. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
+<!-- Icons for Paper and Homepage -->
+<p align="center">
+  <a href="https://craftjarvis.github.io/MCU/">
+    <img src="https://img.shields.io/badge/Homepage-MCU-blue" alt="MCU Homepage">
+  </a>
+  <a href="https://arxiv.org/abs/2310.08367">
+    <img src="https://img.shields.io/badge/Paper-MCU-ff69b4" alt="MCU Paper">
+  </a>
+</p>
+
+**MCU-turbo** is a standard benchmark based on the MCU framework, which originally features over 3000+ atomic tasks. This benchmark is designed to be a standard test, selecting **80 handcrafted atomic tasks** across 10 categories. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
+
+![MCU framework](https://github.com/grandsmile/MCU/blob/master/figs/mcu.png?raw=true).
 
 > 🔍 Simple mode: Tasks begin with sufficient necessary resources pre-supplied and a clear environment.  
 > 🌪️ Hard mode: Agents face **limited resources** and **disruptive factors** such as poor visibility (e.g. bad weather, night-time), extra distractors (e.g., swarms of mobs, scattered items). 
@@ -223,6 +235,21 @@ python batch_video_rating.py \
   --criteria_files_path='./auto_eval/criteria_files/' 
 ```
 
+---
+
+## 📚 Reference
+
+Please consider citing the following paper:
+
+```bibtex
+@inproceedings{zheng2025mcu,
+  title     = {MCU: An Evaluation Framework for Open-Ended Game Agents},
+  author    = {Zheng, Xinyue and Lin, Haowei and He, Kaichen and Wang, Zihao and Zheng, Zilong and Liang, Yitao},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2310.08367}
+}
+```
 ---
 
 ## 📤 Contribute

@@ -11,7 +11,7 @@
   </a>
 </p>
 
-**MCU-turbo** is a standard benchmark based on the MCU framework, which originally features over 3000+ atomic tasks. This benchmark is designed to be a standard test, selecting **80 handcrafted atomic tasks** across 10 categories. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
+**MCU-turbo** is a standard benchmark based on the MCU framework, which originally features over 3000+ atomic tasks. This benchmark is designed to be a standard test, selecting **80 atomic tasks** across 10 categories and 20 compositional tasks. Each task is evaluated under **two difficulty levels**—**Simple** and **Hard**—to rigorously test agent generalization, tool use, planning, and robustness under environmental variations.
 
 ![MCU framework](https://github.com/grandsmile/MCU/blob/master/figs/mcu.png?raw=true).
 
